@@ -1,16 +1,16 @@
 ﻿l_korean:
 
-trait_futa:0 "Futanari"
-trait_futa_immersive:0 "Hermaphrodite"
-trait_futa_desc:0 "This character has the sexual organs of both a woman and a man.\n\nDue to game engine restrictions, this character cannot father children or marry other women in the current version of Carnalitas. She can still marry men and get pregnant."
+trait_futa:0 "후타나리"
+trait_futa_immersive:0 "남녀추니"
+trait_futa_desc:0 "이 캐릭터는 여성과 남성의 성기를 모두 가지고 있다.\n\n게임 엔진의 한계로 인하여, 현재 버전의 Carnalitas에서 해당 캐릭터는 아이의 아버지나 여자와 결혼 할 수 없다. 그러나 남자와 결혼하고 임신할 수는 있다."
 trait_futa_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has the sexual organs of both a woman and a man.\n\nDue to game engine restrictions, this character cannot father children or marry other women in the current version of Carnalitas. She can still marry men and get pregnant."
 
-trait_dick_small:0 "Small Dicks"
+trait_dick_small:0 "작은 고추"
 
-trait_dick_small_1:0 "Small Dick"
-trait_dick_small_1_immersive:0 "Stripling"
-trait_dick_small_1_desc:0 "This character has not been blessed with a sizable manhood."
-trait_dick_small_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has not been blessed with a sizable manhood."
+trait_dick_small_1:0 "작은 고추"
+trait_dick_small_1_immersive:0 "애송이"
+trait_dick_small_1_desc:0 "이 캐릭터의 성기는 남성스럽지 못합니다."
+trait_dick_small_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 남성으로서 축복받지 못했습니다."
 
 trait_dick_small_2:0 "Tiny Dick"
 trait_dick_small_2_immersive:0 "Gelding"
@@ -73,9 +73,9 @@ trait_tits_big_3_immersive:0 "Voluptuous"
 trait_tits_big_3_desc:0 "This character's enormous bosom is the stuff of legends."
 trait_tits_big_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip]'s enormous bosom is the stuff of legends."
 
-trait_slave:0 "Slave"
-trait_slave_desc:0 "This character is the property of another person, recognized by law to be less than a human being."
-trait_slave_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the property of another person, recognized by law to be less than a human being."
+trait_slave:0 "노예"
+trait_slave_desc:0 "이 캐릭터는 다른 사람의 재산입니다. 법에 따라 인간 이하의 것으로 인식되기도 합니다."
+trait_slave_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip](은)는 다른 사람의 재산입니다. 법에 따라 인간 이하의 것으로 인식되기도 합니다."
 
 trait_former_slave:0 "Former Slave"
 trait_former_slave_neutral:0 "Former Slave"

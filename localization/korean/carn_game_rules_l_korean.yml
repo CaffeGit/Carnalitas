@@ -1,13 +1,13 @@
 ﻿l_korean:
 
-rule_carn_std:0 "#X Carnalitas:#! STD Transmission"
-setting_carn_std_enabled:0 "Default"
-setting_carn_std_enabled_desc:0 "No changes will be made to $trait_lovers_pox$ and the $trait_great_pox$."
+rule_carn_std:0 "#X Carnalitas:#! 성병 전파"
+setting_carn_std_enabled:0 "기본"
+setting_carn_std_enabled_desc:0 "$trait_lovers_pox$와 $trait_great_pox$의 생성이 기본입니다."
 setting_carn_std_disabled:0 "#high Never#!"
-setting_carn_std_disabled_desc:0 "Characters will never contract $trait_lovers_pox$ or the $trait_great_pox$."
+setting_carn_std_disabled_desc:0 "캐릭터는 절대로 $trait_lovers_pox$나 $trait_great_pox$에 걸리지 않습니다."
 
-rule_carn_sex_interaction:0 "#X Carnalitas:#! Lay With Lover"
-setting_carn_sex_interaction_disabled:0 "Disabled"
+rule_carn_sex_interaction:0 "#X Carnalitas:#! 애인과의 동침"
+setting_carn_sex_interaction_disabled:0 "불가"
 setting_carn_sex_interaction_disabled_desc:0 "The Character Interaction to lay with a spouse, lover, or soulmate will be disabled."
 setting_carn_sex_interaction_enabled:0 "#high Enabled#!"
 setting_carn_sex_interaction_enabled_desc:0 "You can lay with a spouse, lover, or soulmate through a Character Interaction. This reduces Stress and can be done once every five years."
