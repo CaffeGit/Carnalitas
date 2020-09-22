@@ -1,6 +1,6 @@
 # Carnalitas
 
-When forking Carnalitas, please create new files rather than writing into existing ones. Makes it easier to merge.
+When forking Carnalitas, please create new files rather than writing into existing ones. Use **as specific** of a namespace as possible to avoid awkward conflicts in the future.
 
 [LoversLab download page](https://www.loverslab.com/files/file/14207-carnalitas/)
 
@@ -11,6 +11,10 @@ When forking Carnalitas, please create new files rather than writing into existi
 [Carnalitas Discord Channel](https://discord.gg/fYWeGVd)
 
 [Credits](https://github.com/cherisong/Carnalitas/wiki/Credits)
+
+## Official Submods
+
+[Carnalitas - Historical Slavery Doctrines](https://github.com/cherisong/Carnalitas-Historical-Slavery-Doctrines)
 
 ## Load Order
 
