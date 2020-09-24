@@ -1,0 +1,6 @@
+﻿l_french:
+
+action_carn_can_sex_interaction:1 "Vous pouvez $carn_sex_interaction_neutral$"
+action_carn_can_sex_interaction_label:1 "$action_carn_can_sex_interaction$"
+action_carn_can_sex_interaction_desc:1 "Vous pouvez utililser l'[character_interaction|El] '$carn_sex_interaction$' pour réduire votre [stress|El] ou tenter de concevoir un bébé, entre autres."
+action_carn_can_sex_interaction_click:1 "#I Cliquer pour $carn_sex_interaction_neutral$#!"
