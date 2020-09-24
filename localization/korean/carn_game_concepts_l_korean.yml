@@ -1,14 +1,14 @@
 ﻿l_korean:
 
-game_concept_dominant:0 "Dominant"
-game_concept_dominant_short:0 "Dom"
+game_concept_dominant:0 "지배하는"
+game_concept_dominant_short:0 "지배"
 game_concept_dominants:0 "Dominants"
 game_concept_dominant_possessive:0 "Dominant's"
 game_concept_dominants_possessive:0 "Dominants'"
 game_concept_dominant_desc:0 "Often shortened to $game_concept_dominant_short$, a $game_concept_dominant$ is a [character|E] with a [relation|E] to a corresponding [submissive|E]. While specifics vary, the role of $game_concept_dominant$ typically involves in some way commanding or assuming control over the $game_concept_submissive$."
 
-game_concept_submissive:0 "Submissive"
-game_concept_submissive_short:0 "Sub"
+game_concept_submissive:0 "복종하는"
+game_concept_submissive_short:0 "복종"
 game_concept_submissives:0 "Submissives"
 game_concept_submissive_possessive:0 "Submissive's"
 game_concept_submissives_possessive:0 "Submissives'"

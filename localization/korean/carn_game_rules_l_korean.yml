@@ -58,13 +58,13 @@ setting_carn_futa_content_always_desc:0 "All women in the game world will be fut
 
 rule_carn_futa_trait_inheritance:0 "#X Carnalitas:#! 후타나리 특성의 유전"
 setting_carn_futa_trait_inheritance_off:0 "끄기"
-setting_carn_futa_trait_inheritance_off_desc:0 "Children of futanari do not have an increased chance of being futanari themselves."
+setting_carn_futa_trait_inheritance_off_desc:0 "후타나리의 아이는 후타나리가 될 확률이 높아지지 않습니다."
 setting_carn_futa_trait_inheritance_on:0 "#high 켜기#!"
-setting_carn_futa_trait_inheritance_on_desc:0 "The futanari trait is congenital, so children of futanari have a high chance of being futanari."
+setting_carn_futa_trait_inheritance_on_desc:0 "후타나리는 선천적인 특성으로 후타나리의 아이는 후타나리가 될 확률이 높습니다."
 
 rule_carn_slavery_content:0 "#X Carnalitas:#! 노예제 시스템"
 setting_carn_slavery_content_disabled:0 "금지"
-setting_carn_slavery_content_disabled_desc:0 "Carnalitas's Character Interactions related to Slavery will not be usable."
+setting_carn_slavery_content_disabled_desc:0 "노예와 관련된 Carnalitas의 캐릭터 상호작용을 사용할 수 없습니다."
 setting_carn_slavery_content_enabled:0 "#high 가능#!"
 setting_carn_slavery_content_enabled_desc:0 "Characters can be enslaved against their consent as an alternative to execution, turning them into property to be used, bought, or sold."
 setting_carn_slavery_content_require_acceptance:0 "#high 허용시 가능#!"

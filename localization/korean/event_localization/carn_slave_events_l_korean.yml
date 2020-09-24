@@ -1,4 +1,4 @@
 ﻿l_korean:
 carn_slave.0001.t:0 "노예화"
-carn_slave.0001.desc:0 "I am led into the courtyard, where my shoes are taken from me and manacles are placed around my wrists. I am resigned to my terrible fate as the sneering [actor.GetShortUIName] pronounces me a slave."
-carn_slave.0001.a:0 "From this day onward, I am little more than property."
+carn_slave.0001.desc:0 "나는 안뜰로 이끌려 신발을 벗고 손목에 수갑을 채웠다. 나를 비웃는 [actor.GetShortUIName](이)가 나를 노예로 선언하였고, 나는 이 끔찍한 운명에서 벗어날 수 없게 되었다."
+carn_slave.0001.a:0 "이 날로부터 나는 재산에 지나지 않는다."
