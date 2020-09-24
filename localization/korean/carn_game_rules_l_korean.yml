@@ -20,6 +20,12 @@ setting_carn_arousal_stress_disabled_desc:0 "Characters will not naturally gain 
 setting_carn_arousal_stress_enabled:0 "#high Enabled#!"
 setting_carn_arousal_stress_enabled_desc:0 "Characters naturally gain stress over time. The stress gain is increased if $trait_lustful$ or $trait_rakish$, and absent if $trait_chaste$."
 
+rule_carn_pregnancy_complications:0 "#X Carnalitas:#! Pregnancy Complications"
+setting_carn_pregnancy_complications_default:0 "Default"
+setting_carn_pregnancy_complications_default_desc:0 "No changes will be made to the risk of illness or death in pregnancy and childbirth."
+setting_carn_pregnancy_complications_never:0 "#high Never#!"
+setting_carn_pregnancy_complications_never_desc:0 "Characters will always have smooth pregnancy and childbirth without any illness, death, or other complications."
+
 rule_carn_dt_enabled:0 "#X Carnalitas:#! Body Part Traits"
 setting_carn_dt_enabled_false:0 "Disabled"
 setting_carn_dt_enabled_false_desc:0 "Characters will not spawn with congenital breast and penis size traits."
@@ -80,15 +86,15 @@ setting_carn_slavery_content_consensual_only_desc:0 "Characters can be enslaved,
 
 rule_carn_slavery_default_religious_doctrine:0 "#X Carnalitas:#! Default Slavery Doctrines"
 setting_carn_slavery_default_religious_doctrine_historical:0 "Historical"
-setting_carn_slavery_default_religious_doctrine_historical_desc:0 "At the start of the game, $carn_doctrine_same_slavery_name$ will be Criminal and $carn_doctrine_other_slavery_name$ will be Accepted in all faiths."
+setting_carn_slavery_default_religious_doctrine_historical_desc:0 "At the start of the game, $carn_doctrine_same_slavery_name$ will be Criminal and $carn_doctrine_other_slavery_name$ will be Accepted by default."
 setting_carn_slavery_default_religious_doctrine_accepted:0 "#high Always Accepted#!"
-setting_carn_slavery_default_religious_doctrine_accepted_desc:0 "At the start of the game, all forms of slavery will be Accepted in all faiths."
+setting_carn_slavery_default_religious_doctrine_accepted_desc:0 "At the start of the game, all forms of slavery will be Accepted by default."
 setting_carn_slavery_default_religious_doctrine_shunned:0 "#high Always Shunned#!"
-setting_carn_slavery_default_religious_doctrine_shunned_desc:0 "At the start of the game, all forms of slavery will be Shunned in all faiths."
+setting_carn_slavery_default_religious_doctrine_shunned_desc:0 "At the start of the game, all forms of slavery will be Shunned by default."
 setting_carn_slavery_default_religious_doctrine_criminal:0 "#high Always Criminal#!"
-setting_carn_slavery_default_religious_doctrine_criminal_desc:0 "At the start of the game, all forms of slavery will be Criminal in all faiths."
+setting_carn_slavery_default_religious_doctrine_criminal_desc:0 "At the start of the game, all forms of slavery will be Criminal by default."
 setting_carn_slavery_default_religious_doctrine_inverted:0 "#high Inverted#!"
-setting_carn_slavery_default_religious_doctrine_inverted_desc:0 "At the start of the game, $carn_doctrine_same_slavery_name$ will be Accepted and $carn_doctrine_other_slavery_name$ will be Criminal in all faiths."
+setting_carn_slavery_default_religious_doctrine_inverted_desc:0 "At the start of the game, $carn_doctrine_same_slavery_name$ will be Accepted and $carn_doctrine_other_slavery_name$ will be Criminal by default."
 
 rule_carn_prostitution_content:0 "#X Carnalitas:#! Prostitution System"
 setting_carn_prostitution_content_disabled:0 "Disabled"
@@ -102,11 +108,11 @@ setting_carn_prostitution_content_male_only_desc:0 "Only male characters can use
 
 rule_carn_prostitution_default_religious_doctrine:0 "#X Carnalitas:#! Default Prostitution Doctrine"
 setting_carn_prostitution_default_religious_doctrine_shunned:0 "Shunned"
-setting_carn_prostitution_default_religious_doctrine_shunned_desc:0 "At the start of the game, prostitution will be Shunned in all faiths."
+setting_carn_prostitution_default_religious_doctrine_shunned_desc:0 "At the start of the game, prostitution will be Shunned by default."
 setting_carn_prostitution_default_religious_doctrine_accepted:0 "#high Accepted#!"
-setting_carn_prostitution_default_religious_doctrine_accepted_desc:0 "At the start of the game, prostitution will be Accepted in all faiths."
+setting_carn_prostitution_default_religious_doctrine_accepted_desc:0 "At the start of the game, prostitution will be Accepted by default."
 setting_carn_prostitution_default_religious_doctrine_criminal:0 "#high Criminal#!"
-setting_carn_prostitution_default_religious_doctrine_criminal_desc:0 "At the start of the game, prostitution will be Criminal in all faiths."
+setting_carn_prostitution_default_religious_doctrine_criminal_desc:0 "At the start of the game, prostitution will be Criminal by default."
 
 rule_carn_content_anal:0 "#X Carnalitas:#! Anal Scenes"
 setting_carn_content_anal_off:0 "Off"
