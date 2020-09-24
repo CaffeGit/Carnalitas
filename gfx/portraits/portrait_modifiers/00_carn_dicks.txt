@@ -1,0 +1,146 @@
+﻿eunuch = {
+	usage = game
+	eunuch = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = gene_bs_eunuch
+                template = eunuch
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_trait = eunuch
+			}
+		}
+	}
+}
+
+micro_dick = {
+	usage = game
+	micro_dick = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = gene_bs_dick_size
+                template = dick_size_neg
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_trait = dick_small_3
+			}
+		}
+	}
+}
+
+tiny_dick = {
+	usage = game
+	tiny_dick = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = gene_bs_dick_size
+                template = dick_size_neg
+				value = 0.4
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_trait = dick_small_2
+			}
+		}
+	}
+}
+
+small_dick = {
+	usage = game
+	small_dick = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = gene_bs_dick_size
+                template = dick_size_neg
+				value = 0.2
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_trait = dick_small_1
+			}
+		}
+	}
+}
+
+big_dick = {
+	usage = game
+	big_dick = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = gene_bs_dick_size
+                template = dick_size_pos
+				value = 0.2
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_trait = dick_big_1
+			}
+		}
+	}
+}
+
+huge_dick = {
+	usage = game
+	huge_dick = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = gene_bs_dick_size
+                template = dick_size_pos
+				value = 0.4
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_trait = dick_big_2
+			}
+		}
+	}
+}
+
+gigantic_dick = {
+	usage = game
+	gigantic_dick = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = gene_bs_dick_size
+                template = dick_size_pos
+				value = 1.0
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_trait = dick_big_3
+			}
+		}
+	}
+}
