@@ -1,4 +1,4 @@
 ﻿l_korean:
-carn_had_sex_with_effect.first_person.tt:0 "당신은 [had_sex_with_effect_partner.GetShortUIName](와)과 잔다."
-carn_had_sex_with_effect.third_person.tt:0 "[had_sex_root_character.GetShortUIName|U](은)는 [had_sex_with_effect_partner.GetShortUIName](와)과 잔다."
-had_sex_with_effect.other_person.tt:0 "[had_sex_with_effect_partner.GetShortUIName](와)과 잔다."
+carn_had_sex_with_effect.first_person.tt:0 "당신은 [carn_sex_char_2.GetShortUIName](와)과 잔다."
+carn_had_sex_with_effect.third_person.tt:0 "[carn_sex_char_1.GetShortUIName|U](은)는 [carn_sex_char_2.GetShortUIName](와)과 잔다."
+had_sex_with_effect.other_person.tt:0 "[carn_sex_char_2.GetShortUIName](와)과 잔다."
