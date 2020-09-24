@@ -4,8 +4,8 @@
 		dna_modifiers = {
 			morph = {
 				mode = replace
-				gene = gene_bs_eunuch
-                template = eunuch
+				gene = gene_bs_no_testicles
+                		template = no_testicles
 				value = 1.0
 			}
 		}
