@@ -1,0 +1,13 @@
+﻿l_french:
+carn_can_no_longer_work_as_prostitute_tooltip:1 "Vous ne pouvez plus travailler en tant que prostitué[ROOT.Char.Custom('FR_E')]"
+carn_prostitution_random_events.0001.notification:1 "Prostitution: Compétence améliorée"
+carn_prostitution_random_events.0002.notification:1 "Prostitution: Diffamation par un rival"
+carn_prostitution_random_events.0003.notification:1 "Prostitution: Des [ROOT.Char.GetFaith.PriestNeuterPlural|U] vous accusent"
+carn_prostitution_random_events.0005.notification:1 "Prostitution: Bon pourboire"
+
+carn_prostitution_random_events.0011.t:1 "Prostitution: Une proposition alléchante"
+carn_prostitution_random_events.0011.desc:1 "Alors que je suis allongé[ROOT.Char.Custom('FR_E')] de façon séduisante dans ma chambre, Je suis étonné[ROOT.Char.Custom('FR_E')] de voir que m[client.Custom('FR_OnA')] prochain[client.Custom('FR_E')] client[client.Custom('FR_E')] n'est autre que [client.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\nMe dévorant avec désir du regard, [client.GetSheHe] m'assure que je serais duement récompensé[ROOT.Char.Custom('FR_E')] pour mes services..."
+
+carn_prostitution_random_events.0011.a:1 "Qui suis-je pour refuser une telle oportunité ?"
+carn_prostitution_random_events.0011.b:1 "Je crains de devoir décliner."
+carn_prostitution_random_events.0011.c:1 "Cela pourrait faire un doux scandale..."

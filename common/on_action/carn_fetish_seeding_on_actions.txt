@@ -1,0 +1,5 @@
+﻿carn_character_initialization_pulse = {
+    events = {
+		carn_fetish.0001 # set fetishes for characters that don't have them
+	}
+}
