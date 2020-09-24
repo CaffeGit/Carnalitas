@@ -19,6 +19,9 @@ game_concept_slave_owners_female:1 "maîtresse"
 game_concept_slave_owners_male:1 "maîtres"
 game_concept_slave_owners_female:1 "maîtresses"
 
+# Interactiosn
+carn_sex_interaction_neutral:1 "coucher avec un ou une amante"
+
 # relations
 relation_dominant_male:1 "dominant"
 relation_dominant_female:1 "dominante"
