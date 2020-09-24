@@ -4,8 +4,112 @@
 	carn_std_disabled = {}
 }
 
+carn_sex_interaction = {
+	default = carn_sex_interaction_disabled
+	carn_sex_interaction_disabled = {}
+	carn_sex_interaction_enabled = {}
+	carn_sex_interaction_no_cd = {}
+}
+
+carn_arousal_stress = {
+	default = carn_arousal_stress_disabled
+	carn_arousal_stress_disabled = {}
+	carn_arousal_stress_enabled = {}
+}
+
+carn_dt_enabled = {
+	default = carn_dt_enabled_false
+	carn_dt_enabled_false = {}
+	carn_dt_enabled_true = {}
+}
+
+carn_dt_trait_names = {
+	default = carn_dt_trait_names_default
+	carn_dt_trait_names_default = {}
+	carn_dt_trait_names_immersive = {}
+}
+
 carn_futa_trait_name = {
 	default = carn_futa_trait_name_futa
 	carn_futa_trait_name_futa = {}
 	carn_futa_trait_name_hermaphrodite = {}
+}
+
+carn_futa_content = {
+	default = carn_futa_content_disabled
+	carn_futa_content_disabled = {}
+	carn_futa_content_no_seeding = {}
+	carn_futa_content_very_rare = {}
+	carn_futa_content_rare = {}
+	carn_futa_content_uncommon = {}
+	carn_futa_content_common = {}
+	carn_futa_content_very_common = {}
+	carn_futa_content_always = {}
+}
+
+carn_futa_trait_inheritance = {
+	default = carn_futa_trait_inheritance_off
+	carn_futa_trait_inheritance_off = {}
+	carn_futa_trait_inheritance_on = {}
+}
+
+carn_slavery_content = {
+	default = carn_slavery_content_disabled
+	carn_slavery_content_disabled = {}
+	carn_slavery_content_enabled = {}
+	carn_slavery_content_require_acceptance = {}
+	carn_slavery_content_consensual_only = {}
+}
+
+carn_slavery_default_religious_doctrine = {
+	default = carn_slavery_default_religious_doctrine_historical
+	carn_slavery_default_religious_doctrine_historical = {}
+	carn_slavery_default_religious_doctrine_accepted = {}
+	carn_slavery_default_religious_doctrine_shunned = {}
+	carn_slavery_default_religious_doctrine_criminal = {}
+	carn_slavery_default_religious_doctrine_inverted = {}
+}
+
+carn_content_anal = {
+	default = carn_content_anal_off
+	carn_content_anal_off = {}
+	carn_content_anal_on = {}
+}
+
+carn_content_consent = {
+	default = carn_content_consent_dubcon
+	carn_content_consent_dubcon = {}
+	carn_content_consent_noncon = {}
+	carn_content_consent_always = {}
+}
+
+carn_content_painful = {
+	default = carn_content_painful_off
+	carn_content_painful_off = {}
+	carn_content_painful_on = {}
+}
+
+carn_content_bestiality = {
+	default = carn_content_bestiality_off
+	carn_content_bestiality_off = {}
+	carn_content_bestiality_on = {}
+}
+
+
+carn_content_watersports = {
+	default = carn_content_watersports_off
+	carn_content_watersports_off = {}
+	carn_content_watersports_on = {}
+}
+
+carn_content_scat = {
+	default = carn_content_scat_off
+	carn_content_scat_off = {}
+	carn_content_scat_on = {}
+}
+
+carn_content_gore = {
+	default = carn_content_gore_off
+	carn_content_gore_off = {}
+	carn_content_gore_on = {}
 }

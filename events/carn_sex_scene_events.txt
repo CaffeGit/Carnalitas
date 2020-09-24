@@ -1,0 +1,18 @@
+﻿namespace = carn_sex_scene
+
+#
+# 0002. Fallback event for when no scene matches the provided parameters.
+# This simply resets flags and fires the paradox sex scene
+#
+
+carn_sex_scene.0002 = {
+	hidden = yes
+	immediate = {
+		clear_variable_list = carn_sex_scene_requested_flags
+		carn_sex_scene_request_consensual = yes
+		trigger_event = { id = carn_sex_scene.0001 }
+
+		# clear list again to prevent consensual flag leaking into next request
+		clear_variable_list = carn_sex_scene_requested_flags
+	}
+}

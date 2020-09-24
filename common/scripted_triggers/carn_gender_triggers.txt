@@ -1,0 +1,21 @@
+﻿# Whether this character is futanari
+carn_is_futa_trigger = {
+	OR = {
+		has_trait = futa
+		has_trait = futa_genetic
+	}
+}
+
+# Whether this character is a non-futanari female
+carn_is_female_not_futa_trigger = {
+	is_female = yes
+	carn_is_futa_trigger = no
+}
+
+# Whether this character has a cock and can impregnate female characters
+carn_gender_can_impregnate_trigger = {
+	OR = {
+		is_male = yes
+		carn_is_futa_trigger = yes
+	}
+}

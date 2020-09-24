@@ -1,8 +1,7 @@
-version="1"
+version="1.1.1"
 tags={
 	"Gameplay"
 	"Character Interactions"
-	"Decisions"
 	"Events"
 }
 name="Carnalitas"

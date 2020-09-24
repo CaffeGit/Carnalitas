@@ -1,166 +1,85 @@
-namespace = carn_dt
+﻿namespace = carn_dt
+
+# written by Luther Slade and Cheri
+
+#
+# 0001. seed dt traits for all characters
+# 0002. seed dt traits for this character
+# 0003. initialize newborn children with inactive dt traits
+# 0004. activate gender appropriate dt traits when a child comes of age
+#
+
+#
+# 0001. seed dt traits for all characters
+#
 
 carn_dt.0001 = {
+	type = empty
 	hidden = yes
-	
-	trigger = { 
-		is_female = no
-		age >= 16
-	}
-	
-	weight_multiplier = {
-		base = 1
+
+	trigger = {
+		has_game_rule = carn_dt_enabled_true
 	}
 
 	immediate = {
-		random_list = {
-			820 = { }
-			50 = { add_trait = dick_bad_1 }
-			25 = { add_trait = dick_bad_2 }
-			15 = { add_trait = dick_bad_3 }		
-			50 = { add_trait = dick_good_1 }
-			25 = { add_trait = dick_good_2 }
-			15 = { add_trait = dick_good_3 }			
+		every_living_character = {
+			trigger_event = { id = carn_dt.0002 }
 		}
 	}
 }
+
+#
+# 0002. seed dt traits for this character
+#
 
 carn_dt.0002 = {
 	hidden = yes
-	
-	trigger = { 
-		is_female = no
-		age >= 16
+
+	trigger = {
+		has_game_rule = carn_dt_enabled_true
+		NOT = { has_character_flag = carn_dt_traits_seeded }
 	}
-	
-	weight_multiplier = {
-		base = 1
-	}
+
 	immediate = {
-		random_list = {
-			820 = { }
-			50 = {
-				add_trait = tits_bad_1
-				make_trait_inactive = tits_bad_1
-			}
-			25 = {
-				add_trait = tits_bad_2
-				make_trait_inactive = tits_bad_2
-			}
-			15 = {
-				add_trait = tits_bad_3
-				make_trait_inactive = tits_bad_3
-			}		
-			50 = {
-				add_trait = tits_good_1
-				make_trait_inactive = tits_good_1
-			}
-			25 = {
-				add_trait = tits_good_2
-				make_trait_inactive = tits_good_2
-			}
-			15 = {
-				add_trait = tits_good_3
-				make_trait_inactive = tits_good_3
-			}			
+		carn_seed_dt_traits_effect = yes
+		if = {
+			limit = { age >= 16 }
+			carn_activate_gender_specific_dt_traits_effect = yes
 		}
 	}
 }
+
+#
+# 0003. initialize newborn children with inactive dt traits
+#
 
 carn_dt.0003 = {
 	hidden = yes
-	
-	trigger = { 
-		is_female = yes
-		age >= 16
-	}
-	
-	weight_multiplier = {
-		base = 1
+
+	trigger = {
+		has_game_rule = carn_dt_enabled_true
 	}
 
 	immediate = {
-		random_list = {
-			820 = {}
-			50 = { 
-				add_trait = dick_bad_1 
-				make_trait_inactive = dick_bad_1
-			}
-			25 = {
-				add_trait = dick_bad_2 
-				make_trait_inactive = dick_bad_2
-			}
-			15 = {
-				add_trait = dick_bad_3 
-				make_trait_inactive = dick_bad_3
-			}		
-			50 = {
-				add_trait = dick_good_1
-				make_trait_inactive = dick_good_1				
-			}
-			25 = {
-				add_trait = dick_good_2
-				make_trait_inactive = dick_good_2				
-			}
-			15 = {
-				add_trait = dick_good_3
-				make_trait_inactive = dick_good_3
-			}			
+		scope:child = {
+			carn_make_all_dt_traits_inactive_effect = yes
+			carn_seed_dt_traits_effect = yes
 		}
 	}
 }
 
+#
+# 0004. activate gender appropriate dt traits when a child comes of age
+#
+
 carn_dt.0004 = {
 	hidden = yes
-	
-	trigger = { 
-		is_female = yes
-		age >= 16
-	}
-	
-	weight_multiplier = {
-		base = 1
+
+	trigger = {
+		has_game_rule = carn_dt_enabled_true
 	}
 
 	immediate = {
-		random_list = {
-			820 = { }
-			50 = {
-				add_trait = tits_bad_1
-				add_character_flag = {
-					flag = small_tits
-				}
-			}
-			25 = {
-				add_trait = tits_bad_2
-				add_character_flag = {
-					flag = tiny_tits
-				}
-			}
-			15 = {
-				add_trait = tits_bad_3
-				add_character_flag = {
-					flag = flat_tits
-				}
-			}		
-			50 = {
-				add_trait = tits_good_1
-				add_character_flag = {
-					flag = big_tits
-				}
-			}
-			25 = {
-				add_trait = tits_good_2
-				add_character_flag = {
-					flag = huge_tits
-				}
-			}
-			15 = {
-				add_trait = tits_good_3
-				add_character_flag = {
-					flag = gigantic_tits
-				}
-			}			
-		}
+		carn_activate_gender_specific_dt_traits_effect = yes
 	}
 }

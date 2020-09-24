@@ -1,11 +1,10 @@
-flat_tits = {
+﻿flat_tits = {
 	usage = game
 	flat_tits = {
 		dna_modifiers = {
 			morph = {
-				mode = replace		#overwrite this gene in the dna with the specified template and value
+				mode = modify
 				gene = gene_bs_bust
-				template = bust_clothes
 				value = -1.0
 			}
 		}
@@ -13,7 +12,7 @@ flat_tits = {
 			base = 0
 			modifier = {
 				add = 100
-				has_character_flag = flat_tits
+				has_trait = tits_small_3
 			}
 		}
 	}
@@ -24,17 +23,16 @@ tiny_tits = {
 	tiny_tits = {
 		dna_modifiers = {
 			morph = {
-				mode = replace		#overwrite this gene in the dna with the specified template and value
+				mode = modify
 				gene = gene_bs_bust
-				template = bust_clothes
-				value = 0.3
+				value = -0.4
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 100
-				has_character_flag = tiny_tits
+				has_trait = tits_small_2
 			}
 		}
 	}
@@ -45,17 +43,16 @@ small_tits = {
 	small_tits = {
 		dna_modifiers = {
 			morph = {
-				mode = replace		#overwrite this gene in the dna with the specified template and value
+				mode = modify
 				gene = gene_bs_bust
-				template = bust_clothes
-				value = 0.5
+				value = -0.2
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 100
-				has_character_flag = small_tits
+				has_trait = tits_small_1
 			}
 		}
 	}
@@ -66,17 +63,16 @@ big_tits = {
 	big_tits = {
 		dna_modifiers = {
 			morph = {
-				mode = replace		#overwrite this gene in the dna with the specified template and value
+				mode = modify
 				gene = gene_bs_bust
-				template = bust_clothes
-				value = 0.8
+				value = 0.2
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 100
-				has_character_flag = big_tits
+				has_trait = tits_big_1
 			}
 		}
 	}
@@ -87,17 +83,16 @@ huge_tits = {
 	huge_tits = {
 		dna_modifiers = {
 			morph = {
-				mode = replace		#overwrite this gene in the dna with the specified template and value
+				mode = modify
 				gene = gene_bs_bust
-				template = bust_clothes
-				value = 1
+				value = 0.4
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 100
-				has_character_flag = huge_tits
+				has_trait = tits_big_2
 			}
 		}
 	}
@@ -108,17 +103,16 @@ gigantic_tits = {
 	gigantic_tits = {
 		dna_modifiers = {
 			morph = {
-				mode = replace		#overwrite this gene in the dna with the specified template and value
+				mode = modify
 				gene = gene_bs_bust
-				template = bust_clothes
-				value = 100
+				value = 1
 			}
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 100
-				has_character_flag = gigantic_tits
+				has_trait = tits_big_3
 			}
 		}
 	}

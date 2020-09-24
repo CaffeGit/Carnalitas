@@ -1,0 +1,35 @@
+﻿namespace = carn_arousal
+
+#
+# 0001. Character stress increases due to arousal
+#
+
+carn_arousal.0001 = {
+	hidden = yes
+
+	trigger = {
+		is_ai = no
+		has_game_rule = carn_arousal_stress_enabled
+		carn_has_low_arousal_trigger = no
+	}
+	
+	immediate = {
+
+		send_interface_message = {
+			type = carn_event_arousal
+			right_icon = this
+			# custom_tooltip = carn_msg_arousal_desc
+			add_stress = {
+				# Using -1 * medium_stress_loss as the base value instead of something more straightforward so as to balance the effect of carn_sex_interaction.
+				value = medium_stress_loss 	
+				multiply = -1
+				if = {
+					limit = {
+						carn_has_high_arousal_trigger = yes
+					}
+					multiply = 1.5
+				}
+			}
+		}
+	}
+}
