@@ -26,7 +26,7 @@ micro_dick = {
 			morph = {
 				mode = replace
 				gene = gene_bs_dick_size
-                template = dick_size_neg
+                		template = dick_size_neg
 				value = 1.0
 			}
 		}
@@ -47,7 +47,7 @@ tiny_dick = {
 			morph = {
 				mode = replace
 				gene = gene_bs_dick_size
-                template = dick_size_neg
+                		template = dick_size_neg
 				value = 0.4
 			}
 		}
@@ -68,7 +68,7 @@ small_dick = {
 			morph = {
 				mode = replace
 				gene = gene_bs_dick_size
-                template = dick_size_neg
+                		template = dick_size_neg
 				value = 0.2
 			}
 		}
@@ -89,7 +89,7 @@ big_dick = {
 			morph = {
 				mode = replace
 				gene = gene_bs_dick_size
-                template = dick_size_pos
+                		template = dick_size_pos
 				value = 0.2
 			}
 		}
@@ -110,7 +110,7 @@ huge_dick = {
 			morph = {
 				mode = replace
 				gene = gene_bs_dick_size
-                template = dick_size_pos
+                		template = dick_size_pos
 				value = 0.4
 			}
 		}
@@ -131,7 +131,7 @@ gigantic_dick = {
 			morph = {
 				mode = replace
 				gene = gene_bs_dick_size
-                template = dick_size_pos
+                		template = dick_size_pos
 				value = 1.0
 			}
 		}
