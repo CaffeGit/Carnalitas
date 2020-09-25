@@ -16,6 +16,8 @@ If you are an official contributor to this project, **create a new branch** from
 You can now start working on your feature by pushing your modification to your feature branch.
 
 - Only add changes that are related to that feature
+- Create new files rather than writing into existing ones
+- Use as specific of a namespace as possible to avoid awkward conflicts
 
 ### Create a pull request
 
