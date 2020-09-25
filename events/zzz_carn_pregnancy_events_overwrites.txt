@@ -1,4 +1,5 @@
 ﻿# game rules for childbirth to always be unproblematic
+# this will throw an error in error.log, but testing shows that the overwrite works as intended
 
 namespace = pregnancy
 
