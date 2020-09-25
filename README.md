@@ -2,13 +2,13 @@
 
 [LoversLab download page](https://www.loverslab.com/files/file/14207-carnalitas/)
 
-[Carnalitas Wiki](https://github.com/cherisong/Carnalitas/wiki)
-
-[Development Board](https://github.com/cherisong/Carnalitas/projects/1)
-
 [Carnalitas Discord Channel](https://discord.gg/fYWeGVd)
 
 [How to Contribute to Carnalitas](https://github.com/cherisong/Carnalitas/blob/development/CONTRIBUTING.md)
+
+[Carnalitas Wiki](https://github.com/cherisong/Carnalitas/wiki)
+
+[Development Board](https://github.com/cherisong/Carnalitas/projects/1)
 
 [Credits](https://github.com/cherisong/Carnalitas/wiki/Credits)
 
