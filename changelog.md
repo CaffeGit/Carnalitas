@@ -61,11 +61,6 @@ New scripted triggers:
 * `carn_has_bigger_tits_than_character_trigger` (requires `CHARACTER`)
 * `carn_has_smaller_tits_than_character_trigger` (requires `CHARACTER`)
 
-New genes:
-
-* `gene_bs_dick_size`
-* `gene_bs_no_testicles`
-
 ### Health and Transformation Library for Modders
 
 New scripted effects:
