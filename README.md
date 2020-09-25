@@ -24,7 +24,7 @@
 * mods that list Carnalitas as a prerequisite
 
 ## Carnalitas Succession Law
-By contributing material for Carnalitas you are agreeing to distribute it under the [GNU General Public License 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+By contributing material for Carnalitas you are agreeing to distribute it under the [GNU General Public License 3.0](https://github.com/cherisong/Carnalitas/blob/development/LICENSE.md).
 
 This basically means that:
 1. Anyone can copy, modify and distribute this software.
