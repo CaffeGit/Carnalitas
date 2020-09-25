@@ -10,7 +10,7 @@ carn_event_arousal = {
 }
 
 carn_prostitute_random_event_good = {
-	icon = "generic_good_effect.dds"
+	icon = "prostitution.dds"
 	title = event_message_title
 	desc = event_message_effect
 	style = good
@@ -18,7 +18,7 @@ carn_prostitute_random_event_good = {
 }
 
 carn_prostitute_random_event_bad = {
-	icon = "generic_bad_effect.dds"
+	icon = "prostitution.dds"
 	title = event_message_title
 	desc = event_message_effect
 	style = bad

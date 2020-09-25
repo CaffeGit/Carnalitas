@@ -1,5 +1,5 @@
 ﻿carn_working_as_prostitute_1_modifier = {
-	icon = stewardship_positive
+	icon = prostitution_positive
 	spouse_opinion = -10
 	monthly_income = 0.5
 	monthly_prestige = -0.5
@@ -7,7 +7,7 @@
 }
 
 carn_working_as_prostitute_2_modifier = {
-	icon = stewardship_positive
+	icon = prostitution_positive
 	spouse_opinion = -10
 	monthly_income = 1.0
 	monthly_prestige = -0.3
@@ -15,7 +15,7 @@ carn_working_as_prostitute_2_modifier = {
 }
 
 carn_working_as_prostitute_3_modifier = {
-	icon = stewardship_positive
+	icon = prostitution_positive
 	spouse_opinion = -10
 	monthly_income = 2.0
 	monthly_prestige = -0.1

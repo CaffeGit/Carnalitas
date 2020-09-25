@@ -1,7 +1,7 @@
 ﻿@carn_prostitution_cooldown_time = 0
 
 carn_work_as_prostitute_decision = {
-	picture = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_prostitution.dds"
 
 	desc = carn_work_as_prostitute_decision_desc
 
@@ -85,7 +85,7 @@ carn_work_as_prostitute_decision = {
 
 carn_stop_work_as_prostitute_decision = {
 	ai_check_interval = 0
-	picture = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	picture = "gfx/interface/illustrations/decisions/decision_prostitution.dds"
 
 	desc = carn_stop_work_as_prostitute_decision_desc
 
