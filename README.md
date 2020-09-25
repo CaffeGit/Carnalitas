@@ -1,7 +1,5 @@
 # Carnalitas
 
-When forking Carnalitas, please create new files rather than writing into existing ones. Use **as specific** of a namespace as possible to avoid awkward conflicts in the future.
-
 [LoversLab download page](https://www.loverslab.com/files/file/14207-carnalitas/)
 
 [Carnalitas Wiki](https://github.com/cherisong/Carnalitas/wiki)
@@ -9,6 +7,8 @@ When forking Carnalitas, please create new files rather than writing into existi
 [Development Board](https://github.com/cherisong/Carnalitas/projects/1)
 
 [Carnalitas Discord Channel](https://discord.gg/fYWeGVd)
+
+[How to Contribute to Carnalitas](https://github.com/cherisong/Carnalitas/blob/development/CONTRIBUTING.md)
 
 [Credits](https://github.com/cherisong/Carnalitas/wiki/Credits)
 
