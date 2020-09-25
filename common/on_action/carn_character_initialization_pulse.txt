@@ -2,10 +2,8 @@
 # so instead we have to do this horribly clunky workaround...
 
 on_game_start_after_lobby = {
-	effect = {
-		every_living_character = {
-			trigger_event = { on_action = carn_character_initialization_pulse }
-		}
+	events = {
+		carn_character_initialization.0001
 	}
 }
 

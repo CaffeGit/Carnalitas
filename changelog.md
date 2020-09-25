@@ -10,6 +10,8 @@
 * Add new decisions to Work as a Prostitute and Stop Working as a Prostitute. Working as a prostitute gives you a character modifier which gives you extra income in exchange for decreased prestige. As you upgrade your prostitute lifestyle trait, you get better and better modifiers.
 * Added some random events that can trigger yearly when you're working as a prostitute, including the chance to upgrade your prostitution trait. Modders can add new random events to the on_action `carn_prostitution_random_events_pulse`
 
+For the prostitute decision artwork, we are using a wallpaper that we found on a wallpaper site [here](https://architecture.desktopnexus.com/wallpaper/2019495/). If you know the original artist, please contact us so we can credit them.
+
 New triggers:
 * `carn_is_prostitute_trigger`
 * `carn_is_working_as_prostitute_trigger`
@@ -105,6 +107,9 @@ New scripted triggers:
 * `carn_should_have_no_consequences_for_extramarital_sex_trigger`
 * `carn_should_have_no_consequences_for_extramarital_sex_with_partner_trigger` (requires `PARTNER`)
 * `carn_should_have_no_consequences_for_extramarital_sex_with_no_partner_trigger`
+
+New trait flag:
+* `is_naked` (same effect as the character flag, but to be placed on a trait)
 
 New character and trait flags:
 * `carn_no_pregnancy_complications`
