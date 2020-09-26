@@ -86,7 +86,13 @@ carn_work_as_prostitute_decision = {
 		}
 		modifier = {
 			add = 50
-			faith = { trait_is_virtue = lifestyle_prostitute }
+			faith = {
+				OR = {
+					trait_is_virtue = prostitute_1
+					trait_is_virtue = prostitute_2
+					trait_is_virtue = prostitute_3
+				}
+			}
 		}
 	}
 }
