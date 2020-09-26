@@ -13,6 +13,18 @@
 			has_doctrine_parameter = naked_adherents_active
 		}
 		AND = {
+			is_female = yes
+			faith = {
+				has_doctrine_parameter = naked_females_active
+			}
+		}
+		AND = {
+			is_male = yes
+			faith = {
+				has_doctrine_parameter = naked_males_active
+			}
+		}
+		AND = {
 			faith = {
 				has_doctrine_parameter = naked_priests_active
 			}
