@@ -1,14 +1,14 @@
 # Carnalitas
 
-When forking Carnalitas, please create new files rather than writing into existing ones. Use **as specific** of a namespace as possible to avoid awkward conflicts in the future.
-
 [LoversLab download page](https://www.loverslab.com/files/file/14207-carnalitas/)
+
+[Carnalitas Discord Channel](https://discord.gg/fYWeGVd)
+
+[How to Contribute to Carnalitas](https://github.com/cherisong/Carnalitas/blob/development/CONTRIBUTING.md)
 
 [Carnalitas Wiki](https://github.com/cherisong/Carnalitas/wiki)
 
 [Development Board](https://github.com/cherisong/Carnalitas/projects/1)
-
-[Carnalitas Discord Channel](https://discord.gg/fYWeGVd)
 
 [Credits](https://github.com/cherisong/Carnalitas/wiki/Credits)
 
@@ -24,7 +24,7 @@ When forking Carnalitas, please create new files rather than writing into existi
 * mods that list Carnalitas as a prerequisite
 
 ## Carnalitas Succession Law
-By contributing material for Carnalitas you are agreeing to distribute it under the [GNU General Public License 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
+By contributing material for Carnalitas you are agreeing to distribute it under the [GNU General Public License 3.0](https://github.com/cherisong/Carnalitas/blob/development/LICENSE.md).
 
 This basically means that:
 1. Anyone can copy, modify and distribute this software.
