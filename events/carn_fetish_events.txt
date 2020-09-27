@@ -1,0 +1,18 @@
+﻿namespace = carn_fetish
+
+# Seeding Events
+# 0001: seed fetish variable_list for this character
+
+carn_fetish.0001 = {
+	hidden = yes
+
+	trigger = {
+		has_game_rule = carn_fetishes_enabled_true
+		NOT = { has_character_flag = carn_fetishes_seeded }
+		age >= 16
+	}
+
+	immediate = {
+		carn_seed_fetishes_effect = yes
+	}
+}

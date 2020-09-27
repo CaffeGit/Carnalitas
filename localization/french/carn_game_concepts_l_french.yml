@@ -29,3 +29,10 @@ game_concept_slave_owner_desc:1 "Un [character|El] peut être légalement reconn
 
 game_concept_slave_market:1 "Marché aux esclaves"
 game_concept_slave_market_desc:1 "Les [slaves|El], n'étant que des propriétés, peuvent être acheté et vendu par d'autre [characters|El] à partir de l'[interactions|El] 'Acheter l'esclave' ou 'Vendre l'esclave'. Un personnage qui achète un esclave deviendra son [slave_owner|El]."
+
+game_concept_prostitute:1 "Prostituée"
+game_concept_prostitutes:1 "Prostituées"
+game_concept_prostitution:1 "Prostitution"
+game_concept_prostitute_possessive:1 "de la prostituée"
+game_concept_prostitutes_possessive:1 "des prostituées"
+game_concept_prostitute_desc:1 "Une prostituée est un [character|El] offrant des services sexuels contre paiement. Tout personnage peut utiliser la [decision|El] '$carn_work_as_prostitute_decision$' pour devenir un ou une prostituée, à condition que sa [faith|El] le lui permette.\n\nLa performance d'une prostituée est basée sur sa [diplomacy|El], son [intrigue|El], son intelligence, ainsi que son attractivité. Une prostituée particulièrement douée peut devenir une [GetTrait('prostitute_2').GetName( GetNullCharacter )] voir une [GetTrait('prostitute_3').GetName( GetNullCharacter )].\n\nTravailler en tant que prostituée est légalement reconnu et n'est pas considéré comme [extramarital_sex|El]. Cependant, cela peut tout de même engendrer des [bastards|E] et autres conséquences si le personnage ne fait pas attention..."

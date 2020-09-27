@@ -679,10 +679,23 @@ prostitute_1 = {
 	index = 6916
 	lifestyle = yes
 
-	diplomacy = 1
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_prostitute_1_neutral
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_prostitute_1_female
+			}
+			desc = trait_prostitute_1_male
+		}
+	}
+	
 	intrigue = 1
-	attraction_opinion = 5
-	seduce_scheme_power_add = 5
+
+	flag = carn_no_consequences_for_extramarital_sex_with_others
 
 	group = lifestyle_prostitute
 	level = 1
@@ -734,10 +747,26 @@ prostitute_2 = {
 	index = 6917
 	lifestyle = yes
 
-	diplomacy = 2
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_prostitute_2_neutral
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_prostitute_2_female
+			}
+			desc = trait_prostitute_2_male
+		}
+	}
+
+	diplomacy = 1
 	intrigue = 2
 	attraction_opinion = 10
 	seduce_scheme_power_add = 10
+
+	flag = carn_no_consequences_for_extramarital_sex_with_others
 
 	group = lifestyle_prostitute
 	level = 2
@@ -789,10 +818,26 @@ prostitute_3 = {
 	index = 6918
 	lifestyle = yes
 
-	diplomacy = 3
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_prostitute_3_neutral
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_prostitute_3_female
+			}
+			desc = trait_prostitute_3_male
+		}
+	}
+
+	diplomacy = 2
 	intrigue = 3
-	attraction_opinion = 15
-	seduce_scheme_power_add = 15
+	attraction_opinion = 20
+	seduce_scheme_power_add = 20
+
+	flag = carn_no_consequences_for_extramarital_sex_with_others
 
 	group = lifestyle_prostitute
 	level = 3

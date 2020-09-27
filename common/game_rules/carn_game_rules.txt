@@ -17,6 +17,12 @@ carn_std = {
 	carn_std_disabled = {}
 }
 
+carn_pregnancy_complications = {
+	default = carn_pregnancy_complications_default
+	carn_pregnancy_complications_default = {}
+	carn_pregnancy_complications_never = {}
+}
+
 carn_dt_enabled = {
 	default = carn_dt_enabled_false
 	carn_dt_enabled_false = {}
@@ -51,6 +57,12 @@ carn_futa_trait_inheritance = {
 	default = carn_futa_trait_inheritance_off
 	carn_futa_trait_inheritance_off = {}
 	carn_futa_trait_inheritance_on = {}
+}
+
+carn_fetishes_enabled = {
+	default = carn_fetishes_enabled_false
+	carn_fetishes_enabled_false = {}
+	carn_fetishes_enabled_true = {}
 }
 
 carn_slavery_content = {
