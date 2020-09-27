@@ -1,7 +1,7 @@
 ﻿l_french:
 
 carn_work_as_prostitute_decision:1 "Commencer à se prostituer"
-carn_work_as_prostitute_decision_desc:1 "Si je désire plus d'argent -- ou une excuse pour coucher à droite et à gauche -- Je peux faire savoir autour de moi que j'offre mes services, de nature sexuelle, au plus offrant." 
+carn_work_as_prostitute_decision_desc:1 "Si je désire plus d'argent -- ou une excuse pour coucher à droite et à gauche -- Je peux faire savoir autour de moi que j'offre mes services, de nature sexuelle, au plus offrant."
 carn_work_as_prostitute_decision_tooltip:1 "Commencer à travailler en tant que prostitué[ROOT.Char.Custom('FR_E')], et gagner de l'[gold|El] au détriment de votre prestige et de votre chasteté"
 carn_work_as_prostitute_decision_confirm:1 "Allumons les encens et bougies..."
 msg_carn_started_working_as_prostitute:1 "Prostitution démarrée"

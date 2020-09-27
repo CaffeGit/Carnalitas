@@ -32,3 +32,6 @@ carn_doctrine_prostitution_accepted_desc:1 "性爱是自然的一部分，买卖
 doctrine_parameter_carn_prostitution_illegal:1 "拥有[prostitute|E][trait|E]的角色被认为是[criminals|E]"
 doctrine_parameter_carn_prostitution_shunned:1 "拥有[prostitute|E][trait|E]的角色被认为是[shunned|E]"
 doctrine_parameter_carn_prostitution_accepted:1 "拥有[prostitute|E][trait|E]仍然被大众所接受"
+
+doctrine_parameter_naked_females_active:0 "Women following this religion are naked"
+doctrine_parameter_naked_males_active:0 "Men following this religion are naked"
