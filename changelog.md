@@ -1,19 +1,7 @@
-# Carnalitas v1.2
+# Carnalitas v1.3
 
-## Prostitution System
+## New Features
 
-* Added a game rule to enable or disable prostitution content.
-* Added three new traits: Novice Prostitute (`prostitute_1`), Experienced Prostitute (`prostitute_2`), and Masterful Prostitute (`prostitute_3`).
-* Added a religious doctrine about the criminality of prostitution, and a game rule to set its default setting for all religions.
+### Miscellaneous
 
-## Same-Sex Concubinage
-
-* Added some basic interactions to take same-sex concubines. These can be used as long as your faith accepts same-sex relations.
-
-## Tweaks
-
-* AI no longer asks to buy your slaves.
-
-## Bug Fixes
-
-* Fixed not being able to Lay With Lover targeting your slaves.
+* Added possible doctrine parameters `naked_females_active` and `naked_males_active` to our is_naked_trigger overwrite. This effectively makes the framework compatible with Nudity Laws.

@@ -19,6 +19,9 @@ game_concept_slave_owners_female:1 "maîtresse"
 game_concept_slave_owners_male:1 "maîtres"
 game_concept_slave_owners_female:1 "maîtresses"
 
+# Interactiosn
+carn_sex_interaction_neutral:1 "coucher avec un ou une amante"
+
 # relations
 relation_dominant_male:1 "dominant"
 relation_dominant_female:1 "dominante"
@@ -37,3 +40,8 @@ relation_slave_owner_female_possessive:1 "de la maîtresse"
 
 # Religion
 carn_doctrine_same_slavery_name_full:1 "Asservissement de coreligionnaires"
+
+# Traits
+trait_prostitute_1_lowercase:1 "prostituée débutante"
+trait_prostitute_2_lowercase:1 "prostituée expérimentée"
+trait_prostitute_3_lowercase:1 "prostituée de renom"
