@@ -15,7 +15,6 @@ carn_futa.0001 = {
 	trigger = {
 		NOR = {
 			has_game_rule = carn_futa_content_disabled
-			has_game_rule = carn_futa_content_no_seeding
 		}
 		NOT = { has_character_flag = carn_futa_trait_seeded }
 	}
