@@ -29,10 +29,10 @@ game_concept_slave_owner_desc:0 "[character|E](은)는 법적으로 [slaves|E]�
 game_concept_slave_market:0 "노예시장"
 game_concept_slave_market_desc:0 "[slaves|E](은)는 재산으로 취급받아 사거나 팔 수 있습니다. 다른 [characters|E]에서 노예 구매 및 팔기 [interactions|E] 상호작용으로 사거나 팔 수 있습니다. 노예의 구매자는 [slave_owner|E](이)가 됩니다."
 
-game_concept_prostitute:0 "Prostitute"
-game_concept_prostitutes:0 "Prostitutes"
-game_concept_prostitution:0 "Prostitution"
-game_concept_prostitute_possessive:0 "Prostitute's"
-game_concept_prostitutes_possessive:0 "Prostitutes'"
-game_concept_prostitute_desc:0 "A prostitute is a [character|E] who solicits payment for sex. Any character can use the $carn_work_as_prostitute_decision$ [decision|E] to become a prostitute, as long as their [faith|E] allows them to do so.\n\nThe performance of a prostitute is based on their [diplomacy|E], [intrigue|E], intelligence, and attractiveness. An especially skilled prostitute may become an [GetTrait('prostitute_2').GetName( GetNullCharacter )] or even a [GetTrait('prostitute_3').GetName( GetNullCharacter )].\n\nWorking as a prostitute is legally sanctioned and not considered [extramarital_sex|E]. However, it may still result in [bastard|E] children or other consequences if the character is not careful..."
+game_concept_prostitute:0 "매춘부"
+game_concept_prostitutes:0 "매춘부들"
+game_concept_prostitution:0 "매춘"
+game_concept_prostitute_possessive:0 "매춘부의"
+game_concept_prostitutes_possessive:0 "매춘부들의"
+game_concept_prostitute_desc:0 "매춘부는 성행위를 통해 돈을 버는 [character|E](이)다. 모든 캐릭터는 $carn_work_as_prostitute_decision$ [decision|E](을)를 통해 매춘부가 될 수 있으며, [faith|E]에 따라 정해진다.\n\n매춘부로서의 효과는 [diplomacy|E], [intrigue|E], 지능과 매력에 의해 결정된다. 특별히 능숙화 된 매춘부는 [GetTrait('prostitute_2').GetName( GetNullCharacter )]이나 심지어 [GetTrait('prostitute_3').GetName( GetNullCharacter )](이)가 될 수 있습니다.\n\n매춘부로 일하는 것은 법적으로 허가되며 [extramarital_sex|E](으)로 취급되지 않습니다. 그러나 여전히 [bastard|E](으)로 자식이 생길 수 있으며 이에 대한 고려가 필요합니다..."
 

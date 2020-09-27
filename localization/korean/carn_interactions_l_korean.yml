@@ -69,8 +69,8 @@ carn_msg_scope_recipient_becomes_your_slave_desc:0 "[recipient.GetTitledFirstNam
 carn_msg_scope_slave_becomes_your_slave_desc:0 "[slave.GetTitledFirstName](은)는 당신의 [slave|E](이)가 된다."
 carn_msg_scope_slave_is_no_longer_your_slave_desc:0 "[slave.GetTitledFirstName](은)는 이제 당신의 [slave|E](이)가 아니다."
 
-carn_make_same_sex_concubine_interaction:0 "Make [RECIPIENT.Custom('ConcubineConsort')|U]"
-actor_secondary_carn_make_same_sex_concubine_interaction:0 "Sender"
-carn_find_same_sex_concubine_interaction:0 "Find [ACTOR.Custom('ConcubineConsort')|U]"
-carn_find_same_sex_concubine_interaction_desc:0 "Find a same-sex [actor.Custom('ConcubineConsort')|U] in your court"
-actor_secondary_carn_find_same_sex_concubine_interaction:0 "Sender"
+carn_make_same_sex_concubine_interaction:0 "[RECIPIENT.Custom('ConcubineConsort')|U](으)로 만든다"
+actor_secondary_carn_make_same_sex_concubine_interaction:0 "보낸다"
+carn_find_same_sex_concubine_interaction:0 "[ACTOR.Custom('ConcubineConsort')|U](을)를 찾는다"
+carn_find_same_sex_concubine_interaction_desc:0 "같은 성별의 [actor.Custom('ConcubineConsort')|U](을)를 당신의 궁전에서 찾는다"
+actor_secondary_carn_find_same_sex_concubine_interaction:0 "보낸다"

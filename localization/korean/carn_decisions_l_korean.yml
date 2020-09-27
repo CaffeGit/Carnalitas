@@ -1,13 +1,13 @@
 ﻿l_korean:
 
-carn_work_as_prostitute_decision:0 "Moonlight as a Prostitute"
-carn_work_as_prostitute_decision_desc:0 "If I desire money -- or an excuse to sleep around -- I can let everyone know that I am offering my sexual services to the highest bidder."
-carn_work_as_prostitute_decision_tooltip:0 "Start working as a prostitute, trading your [prestige|E] and chastity for [gold|E]"
-carn_work_as_prostitute_decision_confirm:0 "Lay out the incense and candles..."
-msg_carn_started_working_as_prostitute:0 "Started Prostitution"
+carn_work_as_prostitute_decision:0 "매춘부로 일한다"
+carn_work_as_prostitute_decision_desc:0 "만일 내가 돈이 필요하거나 -- 잠잘 상대가 필요하다면 -- 가장 비싼 입찰자에게 몸을 제공할 수 있다고 모두에게 알릴 수 있다."
+carn_work_as_prostitute_decision_tooltip:0 "매춘부로 일함으로서 [prestige|E](와)과 자비를 대가로 [gold|E](을)를 벌 수 있다."
+carn_work_as_prostitute_decision_confirm:0 "향과 초를 준비해라..."
+msg_carn_started_working_as_prostitute:0 "매춘을 시작한다"
 
-carn_stop_work_as_prostitute_decision:0 "Stop Moonlighting as a Prostitute"
-carn_stop_work_as_prostitute_decision_desc:0 "My journey as a prostitute has ended, and it is time for me to focus on my duties to the realm."
-carn_stop_work_as_prostitute_decision_tooltip:0 "Stop working as a prostitute, reducing your [income|E] but improving your [prestige|E]"
-carn_stop_work_as_prostitute_decision_confirm:0 "Put away the incense and candles"
-msg_carn_stopped_working_as_prostitute:0 "Stopped Prostitution"
+carn_stop_work_as_prostitute_decision:0 "매춘부를 멈춘다"
+carn_stop_work_as_prostitute_decision_desc:0 "몸을 파는 것을 멈추고 내 영역과 명예에 집중한다."
+carn_stop_work_as_prostitute_decision_tooltip:0 "매춘부로 일하는 것을 멈춰, [income|E](을)를 낮추는 대신 [prestige|E](을)를 얻는다."
+carn_stop_work_as_prostitute_decision_confirm:0 "향과 초를 치워라"
+msg_carn_stopped_working_as_prostitute:0 "매춘을 멈춘다"
