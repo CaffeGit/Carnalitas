@@ -94,6 +94,14 @@ setting_carn_prostitution_content_female_only_desc:0 "오직 여성만이 디시
 setting_carn_prostitution_content_male_only:0 "#high 남성 한정#!"
 setting_carn_prostitution_content_male_only_desc:0 "오직 남성만이 디시젼으로 매춘부가 될 수 있습니다."
 
+rule_carn_prostitution_default_religious_doctrine:0 "#X Carnalitas:#! 기본 매춘 독트린"
+setting_carn_prostitution_default_religious_doctrine_shunned:0 "비난"
+setting_carn_prostitution_default_religious_doctrine_shunned_desc:0 "게임 시작시에 기본적으로 매춘은 비난으로 여겨집니다."
+setting_carn_prostitution_default_religious_doctrine_accepted:0 "#high 수락#!"
+setting_carn_prostitution_default_religious_doctrine_accepted_desc:0 "게임 시작시에 기본적으로 매춘은 허용됩니다."
+setting_carn_prostitution_default_religious_doctrine_criminal:0 "#high 범죄#!"
+setting_carn_prostitution_default_religious_doctrine_criminal_desc:0 "게임 시작시에 기본적으로 매춘은 범죄입니다."
+
 rule_carn_content_anal:0 "#X Carnalitas:#! 항문 장면"
 setting_carn_content_anal_off:0 "끄기"
 setting_carn_content_anal_off_desc:0 "제작자가 'anal'으로 플래그를 단 성교 장면이 나타나지 않습니다."
