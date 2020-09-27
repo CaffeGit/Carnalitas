@@ -47,8 +47,8 @@ carn_buy_slave_directly_interaction:0 "노예 구매"
 carn_buy_slave_directly_interaction_desc:0 "[slave|E](을)를 [gold|E]으로 구매한다."
 recipient_secondary_carn_buy_slave_directly_interaction:0 "노예"
 
-carn_buy_slave_on_market_interaction:0 "Browse Slave Market"
-carn_buy_slave_on_market_interaction_desc:0 "Browse all available [slaves|E] for sale on the [slave_market|E]"
+carn_buy_slave_on_market_interaction:0 "노예상에 접근한다"
+carn_buy_slave_on_market_interaction_desc:0 "구매가능한 모든 [slaves|E](을)를 [slave_market|E]에서 찾는다."
 actor_secondary_carn_buy_slave_on_market_interaction:0 "구매자"
 
 carn_sell_slave_interaction:0 "노예 판매"
