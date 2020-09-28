@@ -18,6 +18,12 @@
 
 * Added possible doctrine parameters `naked_females_active` and `naked_males_active` to our is_naked_trigger overwrite. This effectively makes the framework compatible with Nudity Laws.
 
+New on_actions for modders:
+* `carn_on_start_birth_control`
+* `carn_on_stop_birth_control`
+* `carn_on_start_working_as_prostitute`
+* `carn_on_stop_working_as_prostitute`
+
 ## Compatibility
 
 * Harem Doctrines GUI is now integrated with Carnalitas, so you can expand the list of your spouses and concubines if you have more than 3.

@@ -28,7 +28,7 @@
 
  rule_carn_birth_control: "#X Carnalitas:#! Birth Control"
  setting_carn_birth_control_disabled: "Disabled"
- setting_carn_birth_control_disabled_desc: "Decisions to use birth control will not be available."
+ setting_carn_birth_control_disabled_desc: "Carnalitas's Decisions to use birth control will not be available."
  setting_carn_birth_control_any_gender: "#high Any Gender#!"
  setting_carn_birth_control_any_gender_desc: "Both male and female characters will be able to use birth control, reducing their fertility at the cost of income."
  setting_carn_birth_control_female_only: "#high Female Only#!"

@@ -32,6 +32,7 @@
 			title = msg_carn_started_birth_control
 			left_icon = root
 		}
+		trigger_event = { on_action = carn_on_start_birth_control }
 	}
 	
 	ai_potential = {
@@ -61,6 +62,7 @@ carn_stop_birth_control_decision = {
 			title = msg_carn_stopped_birth_control
 			left_icon = root
 		}
+		trigger_event = { on_action = carn_on_stop_birth_control }
 	}
 	
 	ai_potential = {
