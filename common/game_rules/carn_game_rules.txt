@@ -130,7 +130,6 @@ carn_content_bestiality = {
 	carn_content_bestiality_on = {}
 }
 
-
 carn_content_watersports = {
 	default = carn_content_watersports_off
 	carn_content_watersports_off = {}
