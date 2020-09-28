@@ -22,7 +22,7 @@
  carn_is_allowed_to_enslave_hostile_religion_desc: "[recipient.GetShortUINamePossessive|U] faith, [recipient.GetFaith.GetName], is considered to be either #V Hostile#! or #V Evil#! by my faith, allowing me to enslave [recipient.GetHerHim] without being viewed as a [tyrant|E]."
 
  carn_mass_enslave_interaction: "Mass Enslave"
- carn_mass_enslave_interaction_tooltip_1: "Enslave all eligible characters in your dungeons which it is [accepted|E] by your [faith|E] to enslave."
+ carn_mass_enslave_interaction_tooltip_1: "Enslave all eligible characters in your dungeons which it is accepted by your [faith|E] to enslave."
  carn_mass_enslave_interaction_tooltip_2: "This will upset the family and realm of the characters enslaved."
 
  carn_free_slave_interaction: "Free Slave"

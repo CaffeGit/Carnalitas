@@ -11,3 +11,15 @@ carn_stop_work_as_prostitute_decision_desc:1 "我对于风尘工作已经厌倦�
 carn_stop_work_as_prostitute_decision_tooltip:1 "不再从事风尘工作，[income|E]会减少但是[prestige|E]会增加。"
 carn_stop_work_as_prostitute_decision_confirm:1 "收起香烛"
 msg_carn_stopped_working_as_prostitute:1 "停止风尘事业"
+
+carn_start_birth_control_decision:0 "Start Birth Control"
+carn_start_birth_control_decision_desc:0 "By maintaining a stockpile of condoms, diaphragms, silphium leaves, and other supplies, I can ensure that my dalliances are less likely to result in unwanted children."
+carn_start_birth_control_decision_tooltip:0 "Reduce your [fertility|E] at the cost of some [income|E] and [piety|E]"
+carn_start_birth_control_decision_confirm:0 "My body is ready"
+msg_carn_started_birth_control:0 "Started Birth Control"
+
+carn_stop_birth_control_decision:0 "Stop Birth Control"
+carn_stop_birth_control_decision_desc:0 "These artificial impediments have become too much of a burden in the bedroom. I will set them aside and let my passions roam wild and free, as nature intended."
+carn_stop_birth_control_decision_tooltip:0 "Stop reducing your [fertility|E] at the cost of [income|E] and [piety|E]"
+carn_stop_birth_control_decision_confirm:0 "My body is ready"
+msg_carn_stopped_birth_control:0 "Stopped Birth Control"

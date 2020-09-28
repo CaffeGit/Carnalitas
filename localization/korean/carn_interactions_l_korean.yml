@@ -21,6 +21,10 @@ carn_enslave_you_have_no_reason:1 "당신은 타당한 [execute_reason|E](을)�
 carn_is_allowed_to_enslave_desc:1 "[recipient.GetShortUIName|U](은)는 [criminal|E](이)가 있음으로 #weak ([recipient.GetExecuteReasons])#!, [recipient.GetHerHim](을)를 노예화 하는 것은 [tyrant|E]으로 간주되지않으며 허용된다."
 carn_is_allowed_to_enslave_hostile_religion_desc:1 "[recipient.GetShortUINamePossessive|U] 신앙은, [recipient.GetFaith.GetName](을)를 #V 적대적#!이나 #V 사악한#!으로 간주한다. 내 신앙에 따라, [recipient.GetHerHim](을)를 노예화 하는 것은 [tyrant|E]으로 간주되지않으며 허용된다"
 
+carn_mass_enslave_interaction:0 "Mass Enslave"
+carn_mass_enslave_interaction_tooltip_1:0 "Enslave all eligible characters in your dungeons which it is accepted by your [faith|E] to enslave."
+carn_mass_enslave_interaction_tooltip_2:0 "This will upset the family and realm of the characters enslaved."
+
 carn_free_slave_interaction:1 "노예 해방"
 carn_free_slave_interaction_desc:1 "[recipient.GetShortUINameNoTooltip](을)를 [slavery|E]에서 해방한다"
 carn_free_slave_offer:1 "당신의 봉사를 인정하여 노예에서 해방합니다."
@@ -67,6 +71,8 @@ carn_msg_slave_sold:1 "노예 판매"
 carn_msg_slave_freed:1 "노예 해방"
 carn_msg_scope_recipient_becomes_your_slave_desc:1 "[recipient.GetTitledFirstName](은)는 당신의 [slave|E](이)가 된다."
 carn_msg_scope_slave_becomes_your_slave_desc:1 "[slave.GetTitledFirstName](은)는 당신의 [slave|E](이)가 된다."
+carn_msg_scope_new_slave_becomes_your_slave_desc:0 "[new_slave.GetTitledFirstName] has become your [slave|E]"
+carn_msg_prev_becomes_your_slave_desc:0 "[PREV.GetTitledFirstName] has become your [slave|E]"
 carn_msg_scope_slave_is_no_longer_your_slave_desc:1 "[slave.GetTitledFirstName](은)는 이제 당신의 [slave|E](이)가 아니다."
 
 carn_make_same_sex_concubine_interaction:1 "[RECIPIENT.Custom('ConcubineConsort')|U](으)로 만든다"
