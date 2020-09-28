@@ -192,7 +192,28 @@
 	}
 	
 	on_accept = {
-		carn_enslave_interaction_effect = yes
+		if = {
+			limit = {
+				scope:actor = { is_ai = yes }
+				scope:recipient = { is_ai = no }
+			}
+			scope:recipient = { trigger_event = carn_slave.0001 } # Give players a chance to see what's about to happen
+			show_as_tooltip = {
+				carn_enslave_effect = {
+					SLAVE = scope:recipient
+					OWNER = scope:actor
+					DRAMA = yes
+				}
+			}
+		}
+		else = {
+			scope:recipient = { trigger_event = carn_slave.0001 }
+			carn_enslave_effect = {
+				SLAVE = scope:recipient
+				OWNER = scope:actor
+				DRAMA = yes
+			}
+		}
 	}
 
 	ai_will_do = {

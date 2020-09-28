@@ -11,6 +11,7 @@
 			interaction = carn_mass_enslave_interaction
 			actor = this
 			recipient = this
+			secondary_actor = this
 		}
 	}
 }

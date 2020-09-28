@@ -515,7 +515,6 @@
 												button_round  = { # Carnalitas: enslave button
 													name = "enslave"
 													datacontext = "[GetScriptedGui( 'carn_button_prison_enslave' )]"
-													enabled = "[CharacterListItem.GetBool('can_release')]"
 													visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
 													enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
 

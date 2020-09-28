@@ -10,7 +10,6 @@
 
 * Added a mass enslave character interaction, available by right-clicking yourself.
 * Added UI buttons for enslave and mass enslave interactions to the prison view. This overwrites `window_court.gui` and `buttons_icons.gui`.
-* `carn_enslave_interaction_effect` has been turned into a scripted effect to make the new mass enslave interaction work.
 
 ### Body Part Traits
 
