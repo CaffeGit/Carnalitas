@@ -128,6 +128,13 @@ carn_had_sex_with_effect = {
 						}
 						random = {
 							chance = $C1_PREGNANCY_CHANCE$
+							modifier = {
+								factor = carn_birth_control_pregnancy_chance_multiplier
+								OR = {
+									$CHARACTER_1$ = { has_character_modifier = carn_using_birth_control_modifier }
+									$CHARACTER_2$ = { has_character_modifier = carn_using_birth_control_modifier }
+								}
+							}
 							make_pregnant = {
 								father = $CHARACTER_2$
 							}
@@ -195,6 +202,13 @@ carn_had_sex_with_effect = {
 									}
 									random = {
 										chance = $C2_PREGNANCY_CHANCE$
+										modifier = {
+											factor = carn_birth_control_pregnancy_chance_multiplier
+											OR = {
+												$CHARACTER_1$ = { has_character_modifier = carn_using_birth_control_modifier }
+												$CHARACTER_2$ = { has_character_modifier = carn_using_birth_control_modifier }
+											}
+										}
 										add_character_flag = {
 											flag = peasant_is_pregnant
 											days = 560
@@ -220,6 +234,13 @@ carn_had_sex_with_effect = {
 							$CHARACTER_2$ = {
 								random = {
 									chance = $C2_PREGNANCY_CHANCE$
+									modifier = {
+										factor = carn_birth_control_pregnancy_chance_multiplier
+										OR = {
+											$CHARACTER_1$ = { has_character_modifier = carn_using_birth_control_modifier }
+											$CHARACTER_2$ = { has_character_modifier = carn_using_birth_control_modifier }
+										}
+									}
 									make_pregnant = {
 										father = $CHARACTER_1$
 									}

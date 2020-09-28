@@ -1,0 +1,73 @@
+﻿carn_start_birth_control_decision = {
+	ai_check_interval = 0
+	picture = "gfx/interface/illustrations/decisions/decision_prostitution.dds"
+
+	desc = carn_start_birth_control_decision_desc
+
+	selection_tooltip = carn_start_birth_control_decision_tooltip
+
+	is_shown = {
+		is_adult = yes
+		OR = {
+			has_game_rule = carn_birth_control_any_gender
+			AND = {
+				carn_gender_can_impregnate_trigger = yes
+				has_game_rule = carn_birth_control_male_only
+			}
+			AND = {
+				is_female = yes
+				has_game_rule = carn_birth_control_female_only
+			}
+		}
+		NOT = { has_character_modifier = carn_using_birth_control }
+	}
+
+	is_valid_showing_failures_only = {
+		NOT = { faith = { has_doctrine = tenet_natural_primitivism } }
+	}
+	
+	effect = {
+		add_character_modifier = carn_using_birth_control_modifier
+		send_interface_toast = {
+			title = msg_carn_started_birth_control
+			left_icon = root
+		}
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+carn_stop_birth_control_decision = {
+	ai_check_interval = 0
+	picture = "gfx/interface/illustrations/decisions/decision_prostitution.dds"
+
+	desc = carn_stop_birth_control_decision_desc
+
+	selection_tooltip = carn_stop_birth_control_decision_tooltip
+
+	is_shown = {
+		has_character_modifier = carn_using_birth_control
+	}
+
+	effect = {
+		remove_character_modifier = carn_using_birth_control_modifier
+		send_interface_toast = {
+			title = msg_carn_stopped_birth_control
+			left_icon = root
+		}
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

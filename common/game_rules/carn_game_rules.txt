@@ -23,6 +23,14 @@ carn_pregnancy_complications = {
 	carn_pregnancy_complications_never = {}
 }
 
+carn_birth_control = {
+	default = carn_birth_control_disabled
+	carn_birth_control_disabled = {}
+	carn_birth_control_any_gender = {}
+	carn_birth_control_female_only = {}
+	carn_birth_control_male_only = {}
+}
+
 carn_dt_enabled = {
 	default = carn_dt_enabled_false
 	carn_dt_enabled_false = {}
