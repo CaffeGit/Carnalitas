@@ -6,6 +6,12 @@
 
 * Added a game rule that allows you to enable birth control for male and female rulers. This is a togglable modifier that reduces your fertility chance but also drains your income and piety slightly.
 
+### Slavery System Update
+
+* Added a mass enslave character interaction, available by right-clicking yourself.
+* Added UI buttons for enslave and mass enslave interactions to the prison view. This overwrites `window_court.gui` and `buttons_icons.gui`.
+* `carn_enslave_interaction_effect` has been turned into a scripted effect to make the new mass enslave interaction work.
+
 ### Body Part Traits
 
 * Added character flags: `carn_seed_tits_big_1` through `carn_seed_tits_big_3` and so on for all the body part traits. If a historical character has these flags, or if a character is spawned with these flags, they will be force seeded with the corresponding trait if the body part trait game rule is active.

@@ -1,4 +1,5 @@
 ﻿# carn_enslave_effect
+# carn_enslave_interaction_effect
 # carn_free_slave_effect
 # carn_free_illegal_slaves_effect
 # carn_free_slave_interaction_effect
@@ -358,6 +359,75 @@ carn_enslave_effect = {
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+# this is separated out of the main interaction to allow GUI to reference it as well
+carn_enslave_interaction_effect = {
+	if = {
+		limit = {
+			scope:actor = { is_ai = yes }
+			scope:recipient = { is_ai = no }
+		}
+		scope:recipient = { trigger_event = carn_slave.0001 } # Give players a chance to see what's about to happen
+		show_as_tooltip = {
+			carn_enslave_effect = {
+				SLAVE = scope:recipient
+				OWNER = scope:actor
+				DRAMA = yes
+			}
+		}
+	}
+	else = {
+		scope:recipient = { trigger_event = carn_slave.0001 }
+		carn_enslave_effect = {
+			SLAVE = scope:recipient
+			OWNER = scope:actor
+			DRAMA = yes
+		}
+	}
+
+	if = {
+		limit = {
+			scope:actor = {
+				has_execute_reason = scope:recipient
+			}
+		}
+		scope:actor = {	
+			consume_execute_reasons = scope:recipient		
+			stress_impact = {
+				compassionate = medium_stress_impact_gain
+				forgiving = minor_stress_impact_gain
+			}
+		}
+	}
+	else = {
+		scope:actor = {			
+			stress_impact = {
+				compassionate = medium_stress_impact_gain
+				just = medium_stress_impact_gain
+			}
+		}
+	}
+
+	hidden_effect = {
+		scope:recipient = {
+			if = {
+				limit = { is_imprisoned_by = scope:actor }
+				release_from_prison = yes
+			}
+		}
+	}
+
+	scope:actor = {
+		hidden_effect = {
+			send_interface_message = {
+				type = event_generic_neutral
+				title = carn_msg_enslave
+				right_icon = scope:recipient
+				custom_tooltip = carn_msg_scope_recipient_becomes_your_slave_desc
 			}
 		}
 	}

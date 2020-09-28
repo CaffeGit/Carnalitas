@@ -1,0 +1,44 @@
+﻿carn_mass_enslave_interaction = {
+	category = interaction_category_prison
+	is_shown = {
+		scope:actor = scope:recipient
+	}
+	on_accept = {
+		custom_tooltip = carn_mass_enslave_interaction_tooltip_1
+		custom_tooltip = carn_mass_enslave_interaction_tooltip_2
+		scope:actor = {
+			hidden_effect = {
+				ordered_prisoner = {
+					save_scope_as = recipient
+					if = {
+						limit = {
+							scope:actor = {
+								is_character_interaction_valid = {
+									recipient = scope:recipient
+									interaction = carn_enslave_interaction
+								}
+								OR = {
+									faith = {
+										has_doctrine = carn_doctrine_same_slavery_accepted
+										faith_hostility_level = {
+											target = scope:recipient.faith
+											value < faith_hostile_level
+										}
+									}
+									faith = {
+										has_doctrine = carn_doctrine_other_slavery_accepted
+										faith_hostility_level = {
+											target = scope:recipient.faith
+											value >= faith_hostile_level
+										}
+									}
+								}
+							}
+						}
+						carn_enslave_interaction_effect = yes
+					}
+				}
+			}
+		}
+	}
+}

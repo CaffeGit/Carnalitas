@@ -1,0 +1,16 @@
+﻿carn_button_prison_mass_enslave = {
+	scope = character
+	is_shown = {
+		NOT = { has_game_rule = carn_slavery_content_disabled }
+	}
+	is_valid = {
+		always = yes
+	}
+	effect = {
+		open_interaction_window = {
+			interaction = carn_mass_enslave_interaction
+			actor = this
+			recipient = this
+		}
+	}
+}
