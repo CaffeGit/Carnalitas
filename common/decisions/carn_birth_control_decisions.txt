@@ -19,7 +19,7 @@
 				has_game_rule = carn_birth_control_female_only
 			}
 		}
-		NOT = { has_character_modifier = carn_using_birth_control }
+		NOT = { has_character_modifier = carn_using_birth_control_modifier }
 	}
 
 	is_valid_showing_failures_only = {
@@ -52,7 +52,7 @@ carn_stop_birth_control_decision = {
 	selection_tooltip = carn_stop_birth_control_decision_tooltip
 
 	is_shown = {
-		has_character_modifier = carn_using_birth_control
+		has_character_modifier = carn_using_birth_control_modifier
 	}
 
 	effect = {
