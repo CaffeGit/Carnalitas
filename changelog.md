@@ -32,6 +32,8 @@ New on_actions for modders:
 ## Compatibility
 
 * Harem Doctrines GUI is now integrated with Carnalitas, so you can expand the list of your spouses and concubines if you have more than 3.
+* If you have a mod that sets prostitution and slavery doctrines for a new faith, but turn off the prostitution or slavery game rules, Carnalitas will remove the prostitution and slavery doctrines from those faiths.
+* Updated Carnalitas - Historical Slavery Doctrines for compatibility with this version of Carnalitas.
 
 ## Tweaks
 
