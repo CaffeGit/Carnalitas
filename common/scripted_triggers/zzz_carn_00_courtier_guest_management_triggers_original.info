@@ -3,8 +3,6 @@
 	NOR = {
 		# Not blocked by script
 		has_character_flag = blocked_from_leaving
-		# Carnalitas: does not have slave trait, or any other similar trait
-		has_trait_with_flag = can_not_leave_court_voluntarily
 		is_councillor_of = scope:liege
 		is_consort_of = scope:liege
 		scope:liege = {

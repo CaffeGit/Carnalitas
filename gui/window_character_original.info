@@ -2162,16 +2162,8 @@ window = {
 								{
 									text = "SECONDARY_SPOUSES"
 								}
-								
-								blockoverride "remaining_items"	{
-										visible = "[GreaterThan_int32( GetDataModelSize(CharacterWindow.GetSecondarySpouses), '(int32)3' )]"
-										text = "[GetNumberAbove_int32( GetDataModelSize(CharacterWindow.GetSecondarySpouses), '(int32)3' )|=]"
-								}
 
-								blockoverride "expand_button_inside" {
-									visible = "[GreaterThan_int32( GetDataModelSize(CharacterWindow.GetSecondarySpouses), '(int32)3' )]"
-									onclick = "[CharacterWindow.ToggleExpandedRelation( 'spouses' )]"
-								}
+								blockoverride "expand_button" {}
 
 								blockoverride "find_partner"
 								{
@@ -2242,7 +2234,6 @@ window = {
 							vbox_character_row_item = {
 								name = "consorts"
 								visible = "[GreaterThan_int32( Character.GetMaxConsorts, '(int32)0' )]"
-								layoutpolicy_horizontal = expanding
 								layoutpolicy_vertical = expanding
 
 
@@ -2252,18 +2243,10 @@ window = {
 
 								blockoverride "header_text"
 								{
-									text = "doctrine_concubines_name" # edited to be gender neutral.
+									text = "[SelectLocalization( Character.IsFemale, 'CONCUBINES_MEN', 'CONCUBINES_WOMEN' )]"
 								}
-								
-								blockoverride "remaining_items"	{
-										visible = "[GreaterThan_int32( GetDataModelSize(CharacterWindow.GetConcubines), '(int32)3' )]"
-										text = "[GetNumberAbove_int32( GetDataModelSize(CharacterWindow.GetConcubines), '(int32)3' )|=]"
-								}								
 
-								blockoverride "expand_button_inside" {
-									visible = "[GreaterThan_int32( GetDataModelSize(CharacterWindow.GetConcubines), '(int32)3' )]"
-									onclick = "[CharacterWindow.ToggleExpandedRelation( 'concubines' )]"
-								}
+								blockoverride "expand_button" {}
 
 								blockoverride "find_partner"
 								{
@@ -2404,71 +2387,7 @@ window = {
 						}
 					}
 				}
-				
-				### SPOUSES EXPANDED
-				scrollbox = {
-					name = "family_spouses_expanded"
-					visible = "[CharacterWindow.IsRelationExpanded( 'spouses' )]"
-					size = { 100% 100% }
 
-					blockoverride "scrollbox_replace_vbox" {
-						vbox_character_row_item = {
-							name = "spouses"
-							margin_top = 10
-							spacing = 5
-
-
-							blockoverride "portrait_datamodel" {
-								datamodel = "[CharacterWindow.GetSecondarySpouses]"
-							}
-
-							blockoverride "header_text"
-							{
-								text = "carn_cv_spouses_heading"
-							}
-
-							blockoverride "expand_button_inside" {
-								onclick = "[CharacterWindow.ToggleExpandedRelation( 'spouses' )]"
-								down = "[CharacterWindow.IsRelationExpanded( 'spouses' )]"
-							}
-
-							blockoverride "gridbox_slots" {}
-						}
-					}
-				}
-
-				### CONCUBINES EXPANDED
-				scrollbox = {
-					name = "family_concubines_expanded"
-					visible = "[CharacterWindow.IsRelationExpanded( 'concubines' )]"
-					size = { 100% 100% }
-
-					blockoverride "scrollbox_replace_vbox" {
-						vbox_character_row_item = {
-							name = "concubines"
-							margin_top = 10
-							spacing = 5
-
-
-							blockoverride "portrait_datamodel" {
-								datamodel = "[CharacterWindow.GetConcubines]"
-							}
-
-							blockoverride "header_text"
-							{
-								text = "carn_cv_concubines_heading"
-							}
-
-							blockoverride "expand_button_inside" {
-								onclick = "[CharacterWindow.ToggleExpandedRelation( 'concubines' )]"
-								down = "[CharacterWindow.IsRelationExpanded( 'concubines' )]"
-							}
-
-							blockoverride "gridbox_slots" {}
-						}
-					}
-				}
-				
 				### CHILDREN EXPANDED
 				scrollbox = {
 					name = "family_children_expanded"
@@ -2514,7 +2433,7 @@ window = {
 
 				vbox = {
 					name = "relations_main_view"
-					visible = "[Not( Or( Or( CharacterWindow.IsRelationExpanded( 'friends' ), CharacterWindow.IsRelationExpanded( 'rivals' ) ), CharacterWindow.IsRelationExpanded( 'slaves' ) ) )]" # Carnalitas: add a slaves expanded window
+					visible = "[Not( Or(CharacterWindow.IsRelationExpanded( 'friends' ), CharacterWindow.IsRelationExpanded( 'rivals' ) ) )]"
 
 					widget = {
 						name = "first_row"
@@ -2651,35 +2570,6 @@ window = {
 						hbox = {
 							layoutpolicy_horizontal = expanding
 
-							# Carnalitas: show slaves
-
-							vbox_character_row_item = {
-								name = "slaves"
-								visible = "[GreaterThan_int32( GetDataModelSize(CharacterWindow.GetRelationsOfType( GetRelation( 'slave' ) )), '(int32)0' ))]"
-								layoutpolicy_vertical = expanding
-								#layoutpolicy_horizontal = expanding
-
-								blockoverride "portrait_datamodel" {
-									datamodel = "[CharacterWindow.GetRelationsOfType( GetRelation( 'slave' ) )]"
-								}
-
-								blockoverride "header_text"
-								{
-									text = "game_concept_slaves"
-								}
-
-								blockoverride "remaining_items"
-								{
-									visible = "[GreaterThan_int32( GetDataModelSize(CharacterWindow.GetRelationsOfType( GetRelation( 'slave' ) )), '(int32)8' ))]"
-									text = "[GetNumberAbove_int32( GetDataModelSize(CharacterWindow.GetRelationsOfType( GetRelation( 'slave' ) )), '(int32)8' )|=]"
-								}
-
-								blockoverride "expand_button_inside" {
-									visible = "[GreaterThan_int32( GetDataModelSize(CharacterWindow.GetRelationsOfType( GetRelation( 'slave' ) )), '(int32)8' )]"
-									onclick = "[CharacterWindow.ToggleExpandedRelation( 'slaves' )]"
-								}
-							}
-
 							vbox_character_row_item = {
 								name = "rivals"
 								visible = "[CharacterWindow.GetCharacter.IsAdult]"
@@ -2749,39 +2639,6 @@ window = {
 
 					expand = {}
 				}
-
-				### Carnalitas: SLAVES EXPANDED
-				scrollbox = {
-					name = "slaves_expanded"
-					visible = "[CharacterWindow.IsRelationExpanded( 'slaves' )]"
-					size = { 100% 100% }
-
-					blockoverride "scrollbox_replace_vbox" {
-						vbox_character_row_item = {
-							name = "slaves"
-							margin_top = 10
-							spacing = 5
-
-
-							blockoverride "portrait_datamodel" {
-								datamodel = "[CharacterWindow.GetRelationsOfType( GetRelation( 'slave' ) )]"
-							}
-
-							blockoverride "header_text"
-							{
-								text = "game_concept_slaves"
-							}
-
-							blockoverride "expand_button_inside" {
-								onclick = "[CharacterWindow.ToggleExpandedRelation( 'slaves' )]"
-								down = "[CharacterWindow.IsRelationExpanded( 'slaves' )]"
-							}
-
-							blockoverride "gridbox_slots" {}
-						}
-					}
-				}
-
 				### RIVALS EXPANDED
 				scrollbox = {
 					name = "rivals_expanded"

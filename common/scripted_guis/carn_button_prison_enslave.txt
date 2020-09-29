@@ -6,11 +6,7 @@
 	}
 	is_valid = {
 		imprisoner = {
-			is_character_interaction_shown = {
-				recipient = prev
-				interaction = carn_enslave_interaction
-			}
-			is_character_interaction_valid = {
+			is_character_interaction_potentially_accepted = {
 				recipient = prev
 				interaction = carn_enslave_interaction
 			}

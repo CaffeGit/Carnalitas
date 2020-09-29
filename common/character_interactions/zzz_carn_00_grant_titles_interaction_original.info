@@ -1,6 +1,4 @@
-﻿# edited grant_titles_interaction to check that carn_can_be_granted_titles_trigger = yes
-
-grant_titles_interaction = {
+﻿grant_titles_interaction = {
 
 	category = interaction_category_vassal
 	common_interaction = yes
@@ -30,7 +28,6 @@ grant_titles_interaction = {
 		scope:recipient = { can_be_granted_titles_by = { RULER = scope:actor } }
 		NOT = { scope:actor = { is_at_war_with = scope:recipient } }
 		NOT = { scope:recipient = { has_trait = devoted } } # Monks are disinherited, and should not have land granted to them
-		scope:recipient = { carn_can_be_granted_titles_trigger = yes }
 		custom_description = {
 			text = is_not_theocratic_court_chaplain
 			subject = scope:recipient

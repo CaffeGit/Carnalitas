@@ -512,22 +512,6 @@
 													}
 												}
 
-												button_round  = { # Carnalitas: enslave button
-													name = "enslave"
-													datacontext = "[GetScriptedGui( 'carn_button_prison_enslave' )]"
-													visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
-													enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
-
-													button_prison_enslave = {
-														parentanchor = center
-														datacontext = "[GetScriptedGui( 'carn_button_prison_enslave' )]"
-														onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
-														enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
-														tooltip = carn_button_prison_enslave_tooltip
-														using = tooltip_se
-													}
-												}
-
 												button_round  = {
 													name = "execute"
 													enabled = "[CharacterListItem.GetBool('can_execute')]"
@@ -585,22 +569,6 @@
 										onclick = "[CourtWindow.MassPrisonerAction('release')]"
 										enabled = "[CourtWindow.CanDoMassPrisonerAction('release')]"
 										tooltip = MASS_PRISONER_ACTION_RELEASE
-										using = tooltip_se
-									}
-								}
-
-								button_round  = { # Carnalitas: mass enslave button
-									name = "enslave"
-									datacontext = "[GetScriptedGui( 'carn_button_prison_mass_enslave' )]"
-									visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-									enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-
-									button_prison_enslave = {
-										parentanchor = center
-										datacontext = "[GetScriptedGui( 'carn_button_prison_mass_enslave' )]"
-										onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-										enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
-										tooltip = carn_button_prison_mass_enslave_tooltip
 										using = tooltip_se
 									}
 								}
@@ -792,22 +760,6 @@
 														tooltip = "[CharacterListItem.GetText('release_tooltip')]"
 														using = tooltip_se
 
-													}
-												}
-
-												button_round  = { # Carnalitas: enslave button
-													name = "enslave"
-													datacontext = "[GetScriptedGui( 'carn_button_prison_enslave' )]"
-													visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
-													enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
-
-													button_prison_enslave = {
-														parentanchor = center
-														datacontext = "[GetScriptedGui( 'carn_button_prison_enslave' )]"
-														onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
-														enabled = "[ScriptedGui.IsValid( GuiScope.SetRoot( CharacterListItem.GetCharacter.MakeScope ).End )]"
-														tooltip = carn_button_prison_enslave_tooltip
-														using = tooltip_se
 													}
 												}
 

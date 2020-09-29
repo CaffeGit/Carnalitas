@@ -14,11 +14,7 @@
 	maximum_success = 85
 	
 	allow = {
-		OR = {
-			has_perk = kidnapper_perk # Scheme unlocked by the Kidnapper Perk
-			has_character_flag = can_use_abduct_scheme
-			has_trait_with_flag = can_use_abduct_scheme
-		}
+		has_perk = kidnapper_perk # Scheme unlocked by the Kidnapper Perk
 		
 		is_adult = yes
 		is_landed = yes

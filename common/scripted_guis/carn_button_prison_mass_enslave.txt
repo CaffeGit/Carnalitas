@@ -4,7 +4,30 @@
 		NOT = { has_game_rule = carn_slavery_content_disabled }
 	}
 	is_valid = {
-		always = yes
+		any_prisoner = {
+			imprisoner = {
+				is_character_interaction_potentially_accepted = {
+					recipient = prev
+					interaction = carn_enslave_interaction
+				}
+			}
+			OR = {
+				imprisoner.faith = {
+					has_doctrine = carn_doctrine_same_slavery_accepted
+					faith_hostility_level = {
+						target = prev.faith
+						value < faith_hostile_level
+					}
+				}
+				imprisoner.faith = {
+					has_doctrine = carn_doctrine_other_slavery_accepted
+					faith_hostility_level = {
+						target = prev.faith
+						value >= faith_hostile_level
+					}
+				}
+			}
+		}
 	}
 	effect = {
 		open_interaction_window = {
