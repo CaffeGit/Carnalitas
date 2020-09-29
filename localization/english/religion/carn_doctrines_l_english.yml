@@ -32,3 +32,6 @@
  doctrine_parameter_carn_prostitution_illegal: "Characters with any [prostitute|E] [trait|E] are [criminals|E]"
  doctrine_parameter_carn_prostitution_shunned: "Characters with any [prostitute|E] [trait|E] are [shunned|E]"
  doctrine_parameter_carn_prostitution_accepted: "Characters with any [prostitute|E] [trait|E] are fully accepted"
+
+ doctrine_parameter_naked_females_active: "Women following this religion are naked"
+ doctrine_parameter_naked_males_active: "Men following this religion are naked" 

@@ -26,6 +26,30 @@
 carn_seed_dt_traits_effect = {
 	add_character_flag = carn_dt_traits_seeded
 	if = {
+		limit = { has_character_flag = carn_seed_dick_small_1 }
+		carn_add_dick_small_1_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_dick_small_2 }
+		carn_add_dick_small_2_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_dick_small_3 }
+		carn_add_dick_small_3_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_dick_big_1 }
+		carn_add_dick_big_1_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_dick_big_2 }
+		carn_add_dick_big_2_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_dick_big_3 }
+		carn_add_dick_big_3_effect = yes
+	}
+	else_if = {
 		limit = {
 			carn_has_any_dick_gene_trigger = no
 		}
@@ -60,6 +84,30 @@ carn_seed_dt_traits_effect = {
 		}
 	}
 	if = {
+		limit = { has_character_flag = carn_seed_tits_small_1 }
+		carn_add_tits_small_1_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_tits_small_2 }
+		carn_add_tits_small_2_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_tits_small_3 }
+		carn_add_tits_small_3_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_tits_big_1 }
+		carn_add_tits_big_1_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_tits_big_2 }
+		carn_add_tits_big_2_effect = yes
+	}
+	else_if = {
+		limit = { has_character_flag = carn_seed_tits_big_3 }
+		carn_add_tits_big_3_effect = yes
+	}
+	else_if = {
 		limit = {
 			carn_has_any_tits_gene_trigger = no
 		}

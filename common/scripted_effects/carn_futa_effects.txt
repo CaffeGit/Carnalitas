@@ -9,57 +9,63 @@
 carn_seed_futa_trait_effect = {
 	add_character_flag = carn_futa_trait_seeded
 	if = {
-		limit = {
-			has_trait = futa_genetic
-			is_male = yes
-		}
-		make_trait_inactive = futa_genetic
+		limit = { has_character_flag = carn_seed_futa }
+		carn_add_futa_effect = yes
 	}
-	else_if = {
-		limit = {
-			carn_is_futa_trigger = no
-			NOT = { has_inactive_trait = futa_genetic }
+	else = {
+		if = {
+			limit = {
+				has_trait = futa_genetic
+				is_male = yes
+			}
+			make_trait_inactive = futa_genetic
 		}
-		random = {
-			chance = 0
-			modifier = {
-				add = carn_futa_very_rare_chance
-				has_game_rule = carn_futa_content_very_rare
+		else_if = {
+			limit = {
+				carn_is_futa_trigger = no
+				NOT = { has_inactive_trait = futa_genetic }
 			}
-			modifier = {
-				add = carn_futa_rare_chance
-				has_game_rule = carn_futa_content_rare
-			}
-			modifier = {
-				add = carn_futa_uncommon_chance
-				has_game_rule = carn_futa_content_uncommon
-			}
-			modifier = {
-				add = carn_futa_common_chance
-				has_game_rule = carn_futa_content_common
-			}
-			modifier = {
-				add = carn_futa_very_common_chance
-				has_game_rule = carn_futa_content_very_common
-			}
-			modifier = {
-				add = 100
-				has_game_rule = carn_futa_content_always
-			}
-			if = {
-				limit = {
-					has_game_rule = carn_futa_trait_inheritance_off
+			random = {
+				chance = 0
+				modifier = {
+					add = carn_futa_very_rare_chance
+					has_game_rule = carn_futa_content_very_rare
+				}
+				modifier = {
+					add = carn_futa_rare_chance
+					has_game_rule = carn_futa_content_rare
+				}
+				modifier = {
+					add = carn_futa_uncommon_chance
+					has_game_rule = carn_futa_content_uncommon
+				}
+				modifier = {
+					add = carn_futa_common_chance
+					has_game_rule = carn_futa_content_common
+				}
+				modifier = {
+					add = carn_futa_very_common_chance
+					has_game_rule = carn_futa_content_very_common
+				}
+				modifier = {
+					add = 100
+					has_game_rule = carn_futa_content_always
 				}
 				if = {
-					limit = { is_female = yes }
-					add_trait = futa
+					limit = {
+						has_game_rule = carn_futa_trait_inheritance_off
+					}
+					if = {
+						limit = { is_female = yes }
+						add_trait = futa
+					}
 				}
-			}
-			else = {
-				add_trait = futa_genetic
-				if = {
-					limit = { is_male = yes }
-					make_trait_inactive = futa_genetic
+				else = {
+					add_trait = futa_genetic
+					if = {
+						limit = { is_male = yes }
+						make_trait_inactive = futa_genetic
+					}
 				}
 			}
 		}

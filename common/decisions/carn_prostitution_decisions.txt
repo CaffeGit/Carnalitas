@@ -10,6 +10,7 @@ carn_work_as_prostitute_decision = {
 	cooldown = { days = @carn_prostitution_cooldown_time }
 
 	is_shown = {
+		is_adult = yes
 		OR = {
 			has_game_rule = carn_prostitution_content_any_gender
 			AND = {
@@ -79,6 +80,20 @@ carn_work_as_prostitute_decision = {
 		base = 0
 		ai_value_modifier = {
 			ai_greed = 5
+		}
+		modifier = {
+			add = 50
+			faith = { trait_is_virtue = lustful }
+		}
+		modifier = {
+			add = 50
+			faith = {
+				OR = {
+					trait_is_virtue = prostitute_1
+					trait_is_virtue = prostitute_2
+					trait_is_virtue = prostitute_3
+				}
+			}
 		}
 	}
 }

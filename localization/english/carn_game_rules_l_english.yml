@@ -26,6 +26,16 @@
  setting_carn_pregnancy_complications_never: "#high Never#!"
  setting_carn_pregnancy_complications_never_desc: "Characters will always have smooth pregnancy and childbirth without any illness, death, or other complications."
 
+ rule_carn_birth_control: "#X Carnalitas:#! Birth Control"
+ setting_carn_birth_control_disabled: "Disabled"
+ setting_carn_birth_control_disabled_desc: "Carnalitas's Decisions to use birth control will not be available."
+ setting_carn_birth_control_any_gender: "#high Any Gender#!"
+ setting_carn_birth_control_any_gender_desc: "Both male and female characters will be able to use birth control, reducing their fertility at the cost of income."
+ setting_carn_birth_control_female_only: "#high Female Only#!"
+ setting_carn_birth_control_female_only_desc: "Only female or futanari characters will be able to use birth control, reducing their fertility at the cost of income."
+ setting_carn_birth_control_male_only: "#high Male Only#!"
+ setting_carn_birth_control_male_only_desc: "Only male or futanari characters will be able to use birth control, reducing their fertility at the cost of income."
+
  rule_carn_dt_enabled: "#X Carnalitas:#! Body Part Traits"
  setting_carn_dt_enabled_false: "Disabled"
  setting_carn_dt_enabled_false_desc: "Characters will not spawn with congenital breast and penis size traits."

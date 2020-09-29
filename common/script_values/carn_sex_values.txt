@@ -13,8 +13,8 @@ carn_sex_pregnancy_chance = {
 	if = {
 		limit = {
 			OR = {
-				scope:mother = { any_consort = { this = scope:father } }
-				scope:father = { any_consort = { this = scope:mother } }
+				scope:mother = { is_concubine_of = scope:father }
+				scope:father = { is_concubine_of = scope:mother }
 			}
 		}
 		multiply = define:NChildbirth|CONCUBINE_FERTILITY_MULTIPLIER
@@ -27,7 +27,7 @@ carn_sex_pregnancy_chance = {
 	}
 	else_if = {
 		limit = {
-			scope:mother = { any_spouse = { this = scope:father } }
+			scope:mother = { is_spouse_of = scope:father }
 		}
 		multiply = define:NChildbirth|SECONDARY_SPOUSE_FERTILITY_MULTIPLIER
 	}
@@ -122,6 +122,20 @@ carn_sex_pregnancy_chance = {
 			}
 		}
 		multiply = define:NChildbirth|FERTILITY_IN_POOL_MULTIPLIER
+	}
+
+	if = {
+		limit = {
+			OR = {
+				scope:mother = {
+					has_character_modifier = carn_using_birth_control_modifier
+				}
+				scope:father = {
+					has_character_modifier = carn_using_birth_control_modifier
+				}
+			}
+		}
+		multiply = carn_birth_control_pregnancy_chance_multiplier
 	}
 
 	max = define:NChildbirth|MAX_FERTILITY_CHANCE

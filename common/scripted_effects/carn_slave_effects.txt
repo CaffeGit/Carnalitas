@@ -1,4 +1,5 @@
 ﻿# carn_enslave_effect
+# carn_enslave_interaction_effect
 # carn_free_slave_effect
 # carn_free_illegal_slaves_effect
 # carn_free_slave_interaction_effect
@@ -43,6 +44,15 @@ carn_enslave_effect = {
 				scope:new_slave = { NOT = { is_courtier_of = scope:new_owner } }
 			}
 			hidden_effect = { add_courtier = scope:new_slave }
+		}
+	}
+
+	hidden_effect = {
+		scope:new_slave = {
+			if = {
+				limit = { is_imprisoned_by = scope:new_owner }
+				release_from_prison = yes
+			}
 		}
 	}
 
@@ -197,6 +207,34 @@ carn_enslave_effect = {
 		}
 
 		scope:new_owner = {
+			# UI notification for new owner
+			hidden_effect = {
+				send_interface_message = {
+					type = event_generic_neutral
+					title = carn_msg_enslave
+					right_icon = scope:new_slave
+					custom_tooltip = carn_msg_scope_new_slave_becomes_your_slave_desc
+				}
+			}
+
+			# stress effects
+			if = {
+				limit = {
+					has_execute_reason = scope:new_slave
+				}
+				consume_execute_reasons = scope:new_slave		
+				stress_impact = {
+					compassionate = medium_stress_impact_gain
+					forgiving = minor_stress_impact_gain
+				}
+			}
+			else = {	
+				stress_impact = {
+					compassionate = medium_stress_impact_gain
+					just = medium_stress_impact_gain
+				}
+			}
+
 			if = {
 				limit = {
 					OR = {
