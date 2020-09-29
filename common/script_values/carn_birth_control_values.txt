@@ -1,0 +1,2 @@
+﻿# used in carn_had_sex_with_effect
+carn_birth_control_pregnancy_chance_multiplier = 0.1

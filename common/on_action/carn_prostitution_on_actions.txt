@@ -56,3 +56,9 @@ carn_prostitution_random_events_pulse = {
 		100 = carn_prostitution_random_events.0010 # Someone notable lays with you
 	}
 }
+
+carn_on_start_working_as_prostitute = {
+}
+
+carn_on_stop_working_as_prostitute = {
+}

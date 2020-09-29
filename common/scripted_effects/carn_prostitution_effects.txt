@@ -29,6 +29,7 @@ carn_start_working_as_prostitute_effect = {
 			modifier = carn_working_as_prostitute_1_modifier
 		}
 	}
+	trigger_event = { on_action = carn_on_start_working_as_prostitute }
 }
 
 carn_stop_working_as_prostitute_effect = {
@@ -44,11 +45,40 @@ carn_stop_working_as_prostitute_effect = {
 		limit = { has_character_modifier = carn_working_as_prostitute_3_modifier }
 		remove_character_modifier = carn_working_as_prostitute_3_modifier
 	}
+	trigger_event = { on_action = carn_on_stop_working_as_prostitute }
 }
 
 carn_update_working_as_prostitute_modifier_effect = {
-	carn_stop_working_as_prostitute_effect = yes
-	carn_start_working_as_prostitute_effect = yes
+	if = {
+		limit = { has_character_modifier = carn_working_as_prostitute_1_modifier }
+		remove_character_modifier = carn_working_as_prostitute_1_modifier
+	}
+	if = {
+		limit = { has_character_modifier = carn_working_as_prostitute_2_modifier }
+		remove_character_modifier = carn_working_as_prostitute_2_modifier
+	}
+	if = {
+		limit = { has_character_modifier = carn_working_as_prostitute_3_modifier }
+		remove_character_modifier = carn_working_as_prostitute_3_modifier
+	}
+
+	if = {
+		limit = { has_trait = prostitute_3 }
+		add_character_modifier = {
+			modifier = carn_working_as_prostitute_3_modifier
+		}
+	}
+	else_if = {
+		limit = { has_trait = prostitute_2 }
+		add_character_modifier = {
+			modifier = carn_working_as_prostitute_2_modifier
+		}
+	}
+	else = {
+		add_character_modifier = {
+			modifier = carn_working_as_prostitute_1_modifier
+		}
+	}
 }
 
 carn_upgrade_lifestyle_prostitute_effect = {

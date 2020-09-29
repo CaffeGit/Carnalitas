@@ -32,3 +32,6 @@ carn_doctrine_prostitution_accepted_desc:1 "Le sexe fait partie intégrante de n
 doctrine_parameter_carn_prostitution_illegal:1 "Tout personnage ayant le moindre [trait|El] de [prostitute|El] est [criminal|El]"
 doctrine_parameter_carn_prostitution_shunned:1 "Tout personnage ayant le moindre [trait|El] de [prostitute|El] est [shunned|El]"
 doctrine_parameter_carn_prostitution_accepted:1 "Tout personnage ayant le moindre [trait|El] de [prostitute|El] est complétement accepté"
+
+doctrine_parameter_naked_females_active:1 "Les femmes pratiquant cette religion sont dénudées"
+doctrine_parameter_naked_males_active:1 "Les hommes pratiquant cette religion sont dénudés"
