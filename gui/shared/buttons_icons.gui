@@ -1,12 +1,14 @@
 types ButtonIcons
 {
-
 	### Carnalitas buttons
 
 	type button_prison_enslave = button_icon
 	{
-		texture = "gfx/interface/buttons/button_icons/prison_enslave.dds"
+		texture = "gfx/interface/icons/flat_icons/prison_enslave.dds"
 	}
+
+	# rest of vanilla buttons follow
+
 	### Icon buttons 60px
 
 	type button_change = button_icon
