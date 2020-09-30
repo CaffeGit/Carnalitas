@@ -4,7 +4,7 @@
 
 ### GUI Tweaks
 
-* Now integrates Show More Traits from Steam Workshop, so you no longer need to use that mod. Our implementation is actually even better than the Workshop version because the super-small grid only appears if you have so many traits that the normal grid would be cut off.
+* Now integrates Show More Traits from Steam Workshop, so you no longer need to use that mod. Our implementation is actually even better than the Workshop version because the super-small grid only appears if needed.
 
 ## Tweaks
 
