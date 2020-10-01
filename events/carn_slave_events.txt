@@ -2,6 +2,7 @@
 
 #
 # 0001. You have been enslaved
+# 0002. Slaves are freed when they gain land for any reason
 #
 
 #
@@ -40,5 +41,19 @@ carn_slave.0001 = {
 				}
 			}
 		}
+	}
+}
+
+#
+# 0002. Slaves are freed when they gain land for any reason
+#
+
+carn_slave.0002 = {
+	hidden = yes
+	trigger = {
+		has_trait = slave
+	}
+	immediate = {
+		carn_free_slave_effect = yes
 	}
 }
