@@ -13,10 +13,6 @@ carn_prostitution_doctrine_seeding.0001 = {
 	type = empty
 	hidden = yes
 
-	trigger = {
-		NOT = { has_game_rule = carn_prostitution_content_disabled }
-	}
-
 	immediate = {
 		every_religion_global = {
 			every_faith = {
@@ -33,10 +29,6 @@ carn_prostitution_doctrine_seeding.0001 = {
 carn_prostitution_doctrine_seeding.0002 = {
 	type = empty
 	hidden = yes
-
-	trigger = {
-		NOT = { has_game_rule = carn_prostitution_content_disabled }
-	}
 
 	immediate = {
 		root.faith = {

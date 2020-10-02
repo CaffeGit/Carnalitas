@@ -16,12 +16,63 @@
 		scope:liege = { has_relation_court_physician = scope:leaving_courtier }
 		has_relation_lover = scope:liege
 		is_knight_of = scope:liege
+		any_relation = {
+			type = ward
+			OR = {
+				this = scope:liege
+				AND = {
+					is_courtier_of = scope:liege
+					OR = {
+						NOT = { any_close_family_member = { this = scope:leaving_courtier } }
+						any_close_family_member = { this = scope:liege }
+					}
+				}
+			}
+		}
+		any_relation = {
+			type = guardian
+			OR = {
+				this = scope:liege
+				AND = {
+					is_courtier_of = scope:liege
+					OR = {
+						NOT = { any_close_family_member = { this = scope:leaving_courtier } }
+						any_close_family_member = { this = scope:liege }
+					}
+				}
+			}
+		}
+		any_relation = {
+			type = mentor
+			OR = {
+				this = scope:liege
+				AND = {
+					is_courtier_of = scope:liege
+					OR = {
+						NOT = { any_close_family_member = { this = scope:leaving_courtier } }
+						any_close_family_member = { this = scope:liege }
+					}
+				}
+			}
+		}
+		any_relation = {
+			type = student
+			OR = {
+				this = scope:liege
+				AND = {
+					is_courtier_of = scope:liege
+					OR = {
+						NOT = { any_close_family_member = { this = scope:leaving_courtier } }
+						any_close_family_member = { this = scope:liege }
+					}
+				}
+			}
+		}
 		has_epidemic_disease_trigger = yes
 		#Keep daughters/sons for marriages
 		AND = {
 			is_child_of = scope:liege
 			NOT = { has_trait = bastard }
-			ai_boldness < high_positive_ai_value
 			trigger_if = { #Daughters
 				limit = { is_female = yes }
 				scope:liege = {
@@ -55,5 +106,10 @@
 
 		#...Or if they're involved in an ongoing event
 		has_variable = stewardship_duty_1062_employer
+
+		#...Or if someone is trying to elope with them
+		any_targeting_scheme = {
+			scheme_type = elope
+		}
 	}
 }

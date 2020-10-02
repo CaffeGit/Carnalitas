@@ -1,7 +1,7 @@
 ﻿l_french:
 
 carn_work_as_prostitute_decision:1 "Commencer à se prostituer"
-carn_work_as_prostitute_decision_desc:1 "Si je désire plus d'argent -- ou une excuse pour coucher à droite et à gauche -- Je peux faire savoir autour de moi que j'offre mes services, de nature sexuelle, au plus offrant." 
+carn_work_as_prostitute_decision_desc:1 "Si je désire plus d'argent -- ou une excuse pour coucher à droite et à gauche -- Je peux faire savoir autour de moi que j'offre mes services, de nature sexuelle, au plus offrant."
 carn_work_as_prostitute_decision_tooltip:1 "Commencer à travailler en tant que prostitué[ROOT.Char.Custom('FR_E')], et gagner de l'[gold|El] au détriment de votre prestige et de votre chasteté"
 carn_work_as_prostitute_decision_confirm:1 "Allumons les encens et bougies..."
 msg_carn_started_working_as_prostitute:1 "Prostitution démarrée"
@@ -11,3 +11,15 @@ carn_stop_work_as_prostitute_decision_desc:1 "Mon aventure en tant que prostitu�
 carn_stop_work_as_prostitute_decision_tooltip:1 "Arrêter de travailler en tant que prostitué[ROOT.Char.Custom('FR_E')], réduisant votre [income|El] mais améliorant votre [prestige|El]"
 carn_stop_work_as_prostitute_decision_confirm:1 "Eteignons les encens et bougies"
 msg_carn_stopped_working_as_prostitute:1 "Prostitution stoppée"
+
+carn_start_birth_control_decision:1 "Commencer la contraception"
+carn_start_birth_control_decision_desc:1 "En maintenant un stock de préservatifs, diaphragmes, feuilles de silphium et autres commodités, je peux m'assurer que mes liaisons soient moins propices à la mise au monde d'un enfant non désiré."
+carn_start_birth_control_decision_tooltip:1 "Réduire votre [fertility|El] au détriment de votre [income|El] et [piety|El]"
+carn_start_birth_control_decision_confirm:1 "Mon corps est prêt"
+msg_carn_started_birth_control:1 "Contraception démarrée"
+
+carn_stop_birth_control_decision:1 "Arrêter la contraception"
+carn_stop_birth_control_decision_desc:1 "Ces obstacles artificiels sont devenus un vrai poids dans la chambre. Je vais les mettre de côté et laisser libre cours à ma passion, comme la nature l'a souhaité."
+carn_stop_birth_control_decision_tooltip:1 "Arrêter de réduire votre [fertility|El], retournant à votre [income|El] et [piety|El] de base"
+carn_stop_birth_control_decision_confirm:1 "Mon corps est prêt"
+msg_carn_stopped_birth_control:1 "Contraception arrêtée"

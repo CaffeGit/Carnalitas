@@ -1,6 +1,6 @@
 ﻿l_korean:
 
-carn_sex_scene.0001.t:0 "욕망의 진통"
-carn_sex_scene.0001.desc_opening:0 "나는 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))]인 [carn_sex_target.GetTitledFirstName](을)를 찾아 간절히 기다렸다."
-carn_sex_scene.0001.desc_ending:0 "[ROOT.Char.Custom2('sex_scene', SCOPE.sC('carn_sex_target'))]"
-carn_sex_scene.0001.a:0 "훌륭해."
+carn_sex_scene.0001.t:1 "욕망의 진통"
+carn_sex_scene.0001.desc_opening:1 "나는 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('carn_sex_target'))]인 [carn_sex_target.GetTitledFirstName](을)를 찾아 간절히 기다렸다."
+carn_sex_scene.0001.desc_ending:1 "[ROOT.Char.Custom2('sex_scene', SCOPE.sC('carn_sex_target'))]"
+carn_sex_scene.0001.a:1 "훌륭해."

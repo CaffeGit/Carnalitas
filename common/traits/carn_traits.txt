@@ -611,6 +611,7 @@ slave = { # Chattel Slave
 	hostile_scheme_power_mult = -0.2
 
 	can_inherit = no
+	blocks_from_claim_inheritance = yes
 	flag = can_not_be_granted_titles
 	flag = can_not_leave_court_voluntarily
 	

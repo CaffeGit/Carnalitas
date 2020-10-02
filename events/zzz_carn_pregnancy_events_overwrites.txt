@@ -37,9 +37,9 @@ pregnancy.0001 = {
 
 				#More likely if you have sacred childbirth
 				modifier = {
-					factor = 2 # Religious doctrine focusing on providing a sanitary birthing chamber and supplied should have a substantial impact on birth complications.
+					factor = 2 # Religious doctrine focusing on providing a sanitary birthing chamber and supplies should have a substantial impact on birth complications.
 					faith = {
-						has_doctrine = tenet_sacred_childbirth
+						has_doctrine_parameter = safer_childbirths_active
 					}
 				}
 				#More likely if the Dynasty has the Kin legacy
@@ -121,6 +121,12 @@ pregnancy.0001 = {
 				}
 			}
 			10 = { #Sickly child (all other events happen as usual)
+				modifier = {
+					factor = 0.5 # Religious doctrine focusing on providing a sanitary birthing chamber and supplies should have a substantial impact on birth complications.
+					faith = {
+						has_doctrine_parameter = healthier_children_active
+					}
+				}
 				modifier = { # Carnalitas game rule
 					factor = 0
 					OR = {

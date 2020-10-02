@@ -10,7 +10,7 @@
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_same_slavery_crime }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 			else_if = {
 				limit = { has_doctrine = carn_doctrine_same_slavery_accepted }
@@ -26,7 +26,7 @@
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_same_slavery_shunned }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 		}
 		parameters = {
@@ -38,7 +38,7 @@
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_same_slavery_accepted }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 			else_if = {
 				limit = { has_doctrine = carn_doctrine_same_slavery_crime }
@@ -63,7 +63,7 @@ carn_doctrine_other_slavery = {
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_other_slavery_crime }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 			else_if = {
 				limit = { has_doctrine = carn_doctrine_other_slavery_accepted }
@@ -79,7 +79,7 @@ carn_doctrine_other_slavery = {
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_other_slavery_shunned }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 		}
 		parameters = {
@@ -91,7 +91,7 @@ carn_doctrine_other_slavery = {
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_other_slavery_accepted }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 			else_if = {
 				limit = { has_doctrine = carn_doctrine_other_slavery_crime }
@@ -116,7 +116,7 @@ carn_doctrine_prostitution = {
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_prostitution_crime }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 			else_if = {
 				limit = { has_doctrine = carn_doctrine_prostitution_accepted }
@@ -132,7 +132,7 @@ carn_doctrine_prostitution = {
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_prostitution_shunned }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 		}
 		parameters = {
@@ -144,7 +144,7 @@ carn_doctrine_prostitution = {
 			value = faith_doctrine_cost_mid
 			if = {
 				limit = { has_doctrine = carn_doctrine_prostitution_accepted }
-				multiply = faith_unchanged_doctrine_cost_mult
+				multiply = 0
 			}
 			else_if = {
 				limit = { has_doctrine = carn_doctrine_prostitution_crime }

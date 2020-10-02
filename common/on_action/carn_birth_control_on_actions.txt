@@ -1,0 +1,5 @@
+﻿carn_on_start_birth_control = {
+}
+
+carn_on_stop_birth_control = {
+}
