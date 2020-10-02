@@ -115,6 +115,12 @@ carn_on_slave_freed = {
 # vanilla on_actions
 ######################################################################
 
+on_birth_child = {
+	events = {
+		carn_slave.0003 # Slave newborns get their owner relation
+	}
+}
+
 on_title_gain = {
 	events = {
 		carn_slave.0002 # Slaves are freed when they gain land for any reason
