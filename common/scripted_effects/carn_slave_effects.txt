@@ -399,6 +399,14 @@ carn_enslave_effect = {
 			}
 		}
 	}
+
+	hidden_effect = {
+		scope:new_slave = {
+			trigger_event = {
+				on_action = carn_on_slave_enslaved
+			}
+		}
+	}
 }
 
 # frees the scoped character if they are a slave
@@ -407,10 +415,14 @@ carn_free_slave_effect = {
 	every_relation = {
 		type = slave_owner
 		remove_relation_slave = prev
+		save_scope_as = former_owner
 	}
 	hidden_effect = {
 		remove_trait = slave
 		add_trait = former_slave
+		trigger_event = {
+			on_action = carn_on_slave_freed
+		}
 	}
 }
 

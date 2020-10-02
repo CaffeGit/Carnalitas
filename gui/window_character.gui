@@ -908,7 +908,7 @@ window = {
 								fixedgridbox = {
 									name = "traits_tiny"
 									datamodel = "[CharacterWindow.GetTraits]"
-									visible = "[GreaterThan_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)10')]"
+									visible = "[And(GreaterThan_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)10'), LessThanOrEqualTo_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)22'))]"
 									flipdirection = yes
 									addcolumn = 24
 									addrow = 25
@@ -921,6 +921,36 @@ window = {
 											blockoverride "icon_size"
 											{
 												size = { 25 25 }
+											}
+
+											blockoverride "glow" {
+												glow = {
+													visible = "[Or(Trait.IsGenetic(), Trait.IsInheritable())]"
+													color = { 0.4 0.5 0.65 1 }
+													glow_radius = 2
+													using = Glow_Standard
+												}
+											}
+										}
+									}
+								}
+
+								fixedgridbox = {
+									name = "traits_tiny_showmoretraits"
+									datamodel = "[CharacterWindow.GetTraits]"
+									visible = "[GreaterThan_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)22')]"
+									flipdirection = yes
+									addcolumn = 17
+									addrow = 18
+									maxhorizontalslots = 16
+									datamodel_wrap = 16
+									maxverticalslots = 3
+
+									item = {
+										icon_trait = {
+											blockoverride "icon_size"
+											{
+												size = { 20 20 }
 											}
 
 											blockoverride "glow" {
@@ -1079,7 +1109,7 @@ window = {
 								fixedgridbox = {
 									name = "traits_tiny"
 									datamodel = "[CharacterWindow.GetTraits]"
-									visible = "[GreaterThan_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)8')]"
+									visible = "[And(GreaterThan_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)8'), LessThanOrEqualTo_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)18'))]"
 									flipdirection = yes
 									addcolumn = 24
 									addrow = 25
@@ -1092,6 +1122,36 @@ window = {
 											blockoverride "icon_size"
 											{
 												size = { 25 25 }
+											}
+
+											blockoverride "glow" {
+												glow = {
+													visible = "[Or(Trait.IsGenetic(), Trait.IsInheritable())]"
+													color = { 0.4 0.5 0.65 1 }
+													glow_radius = 2
+													using = Glow_Standard
+												}
+											}
+										}
+									}
+								}
+
+								fixedgridbox = {
+									name = "traits_tiny_showmoretraits"
+									datamodel = "[CharacterWindow.GetTraits]"
+									visible = "[GreaterThan_int32(GetDataModelSize(CharacterWindow.GetTraits), '(int32)18')]"
+									flipdirection = yes
+									addcolumn = 17
+									addrow = 18
+									maxhorizontalslots = 13
+									datamodel_wrap = 13
+									maxverticalslots = 3
+
+									item = {
+										icon_trait = {
+											blockoverride "icon_size"
+											{
+												size = { 20 20 }
 											}
 
 											blockoverride "glow" {
